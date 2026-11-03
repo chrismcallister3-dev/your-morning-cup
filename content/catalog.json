@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "editorialStatus": "existing-prototype-content-not-reverified",
+  "items": [
+    {
+      "id": "discover-01",
+      "section": "The Daily Pour",
+      "kind": "story",
+      "meta": "SPORTS · 2 MIN",
+      "title": "Rays rally in the 12th to keep World Series alive",
+      "summary": "Trailing in the 12th inning of Game 4, Tampa Bay scored twice to beat Milwaukee 4–3. The Brewers still lead the Series 3–1, with Game 5 scheduled for tonight.",
+      "source": {
+        "label": "Source: Associated Press ↗",
+        "url": "https://apnews.com/article/8b8b1c9dba76a30e74ddaca2a929847b"
+      }
+    },
+    {
+      "id": "discover-02",
+      "section": "The Daily Pour",
+      "kind": "story",
+      "meta": "PUBLIC LANDS · 2 MIN",
+      "title": "Arizona's newest national park has a volcanic origin",
+      "summary": "NASA's Earth Observatory looks at Chiricahua National Park, where eruptions about 27 million years ago left rock that erosion sculpted into extraordinary spires and balanced formations.",
+      "source": {
+        "label": "Source: NASA Earth Observatory ↗",
+        "url": "https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/"
+      }
+    },
+    {
+      "id": "discover-03",
+      "section": "A Little Froth",
+      "kind": "story",
+      "meta": "ANIMAL BEHAVIOR · 2 MIN",
+      "title": "Do spiders dream? Their sleep is surprisingly complicated",
+      "summary": "Researchers studying jumping spiders observed two sleep stages, including REM-like eye movements and muscle twitches. The findings do not establish that spiders dream—but they do challenge simple assumptions about animal sleep.",
+      "source": {
+        "label": "Source: ScienceDaily / University of Bonn ↗",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261026225555.htm"
+      },
+      "deepDiveId": "featured"
+    },
+    {
+      "id": "discover-04",
+      "section": "A Little Froth",
+      "kind": "story",
+      "meta": "SPACE ODDITIES · 1 MIN",
+      "title": "One moon briefly disappears behind another",
+      "summary": "NASA's astronomy picture for today shows Ganymede passing in front of Io. The rare mutual occultation is a reminder that Jupiter's moons put on their own celestial performances.",
+      "source": {
+        "label": "Source: NASA Astronomy Picture of the Day ↗",
+        "url": "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/"
+      }
+    },
+    {
+      "id": "discover-05",
+      "section": "Something to Chew On",
+      "kind": "story",
+      "meta": "PALEONTOLOGY · 3 MIN",
+      "title": "An ancient amphibian that lived at sea",
+      "summary": "New fossils from roughly 237 million years ago point to an armored amphibian that may have spent its life in salt water—an unexpected evolutionary solution for animals whose skin generally presents challenges in marine environments.",
+      "source": {
+        "label": "Source: Reuters ↗",
+        "url": "https://www.reuters.com/business/environment/ancient-armored-bottom-feeder-is-first-seagoing-amphibian-2026-10-27/"
+      },
+      "deepDiveId": "featured"
+    },
+    {
+      "id": "discover-06",
+      "section": "Something to Chew On",
+      "kind": "story",
+      "meta": "GEOLOGY · 2 MIN",
+      "title": "How volcanoes built a landscape of stone towers",
+      "summary": "The rock pinnacles at Chiricahua began with enormous volcanic deposits; weathering and erosion did the patient sculpting. NASA's satellite view reveals the larger landscape surrounding those formations.",
+      "source": {
+        "label": "Source: NASA Earth Observatory ↗",
+        "url": "https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/"
+      }
+    },
+    {
+      "id": "discover-07",
+      "section": "Something to Chew On",
+      "kind": "story",
+      "meta": "ASTRONOMY · 2 MIN",
+      "title": "Why Jupiter's moons sometimes eclipse each other",
+      "summary": "The alignment needed to see one Galilean moon pass in front of another from Earth occurs around Jupiter's equinox. These events reveal how our viewing angle changes what we can observe.",
+      "source": {
+        "label": "Source: NASA Astronomy Picture of the Day ↗",
+        "url": "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/"
+      }
+    },
+    {
+      "id": "discover-08",
+      "section": "The Last Sip",
+      "kind": "quote",
+      "quote": "“Imagination will often carry us to worlds that never were. But without it we go nowhere.”",
+      "attribution": "— Carl Sagan",
+      "source": {
+        "label": "Source: The Carl Sagan Portal ↗",
+        "url": "https://carlsagan.com/books/"
+      }
+    }
+  ],
+  "deepDives": [
+    {
+      "id": "featured",
+      "html": "<div class=\"over\">Animal behavior · Paleontology · Evidence</div><h2>When nature surprises us: what spiders and ancient amphibians teach us about evidence</h2><p class=\"intro\">What can a sleeping jumping spider and a fossil marine amphibian tell us about scientific discovery? Both stories remind us that unexpected evidence can challenge familiar assumptions—without answering every question.</p><div class=\"note\">This is an <strong>editorial connection</strong> between two independent research stories. The findings do not establish a biological link between spider sleep and ancient amphibians.</div><h4>The surprising observations</h4><p>Researchers studying the jumping spider <em>Portia fimbriata</em> reported behavioral evidence of two regulated sleep stages. One included eye movements and muscle twitches similar in appearance to REM sleep. That is intriguing, but it does not show that spiders experience dreams.</p><p>Separately, fossil discoveries in China point to <em>Gerrothorax maritimus</em>, an amphibian that apparently lived in Triassic seas about 237 million years ago. Its armor and other characteristics have prompted hypotheses about how it managed the challenges of salt water.</p><h4>What the evidence can—and cannot—tell us</h4><p>Spider researchers observed behavior and responses to disturbance; they did not directly measure dream experiences. Paleontologists interpreted anatomy, sediment context, and chemical evidence; they cannot watch the extinct animal swim. Each field asks questions that its available evidence can address.</p><h4>The connection worth keeping</h4><p>Discovery often begins when observations fail to fit our expectations. Good inquiry means following those clues while keeping claims within what the evidence supports.</p><div class=\"note\"><strong>Want to explore further?</strong> These are short summaries of publicly accessible reporting. Use the original sources below for methods, uncertainties, and context.</div><h4>Sources</h4><ul class=\"source-list\"><li><a href=\"https://www.sciencedaily.com/releases/2026/10/261026225555.htm\" rel=\"noopener noreferrer\" target=\"_blank\">University of Bonn research on spider sleep — ScienceDaily ↗</a></li><li><a href=\"https://www.reuters.com/business/environment/ancient-armored-bottom-feeder-is-first-seagoing-amphibian-2026-10-27/\" rel=\"noopener noreferrer\" target=\"_blank\">Early marine amphibian fossil research — Reuters ↗</a></li></ul><p class=\"muted\">This Deep Dive presents a bounded synthesis of linked reports; it is not a substitute for their full research papers.</p><h4>Other Places to Explore</h4><p>For additional curiosity-driven science discoveries, explore <a href=\"https://science.nasa.gov/\" rel=\"noopener noreferrer\" target=\"_blank\">NASA Science ↗</a>.</p>"
+    }
+  ],
+  "edition": {
+    "id": "2026-10-28-sample",
+    "date": "2026-10-28",
+    "label": "October 28, 2026 · Freshly curated edition",
+    "discoveryIds": [
+      "discover-01",
+      "discover-02",
+      "discover-03",
+      "discover-04",
+      "discover-05",
+      "discover-06",
+      "discover-07",
+      "discover-08"
+    ],
+    "featuredDiveId": "featured"
+  }
+}
