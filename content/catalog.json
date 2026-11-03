@@ -1,125 +1,124 @@
 {
   "schemaVersion": 1,
-  "editorialStatus": "existing-prototype-content-not-reverified",
+  "editorialStatus": "manually-curated-pilot",
   "items": [
     {
-      "id": "discover-01",
+      "id": "2026-11-02-01",
       "section": "The Daily Pour",
       "kind": "story",
-      "meta": "SPORTS · 2 MIN",
-      "title": "Commanders rally past Eagles with 27 unanswered points",
-      "summary": "After falling behind 10–0 Sunday night, Washington scored 27 straight points to beat Philadelphia 27–10. Jayden Daniels threw for 217 yards and a touchdown, and the Commanders held the Eagles scoreless over the final three quarters.",
+      "meta": "HOCKEY · 2 MIN",
+      "title": "Capitals' three-game run ends against Minnesota",
+      "summary": "The Wild struck twice in the opening six minutes and beat Washington 5–1 on Sunday. Justin Sourdif scored the Capitals’ only goal; Minnesota's Kirill Kaprizov reached 500 career points with an empty-net goal.",
       "source": {
-        "label": "CBS Sports / Associated Press — Game recap ↗",
-        "url": "https://www.cbssports.com/nfl/gametracker/recap/NFL_20261101_PHI%40WAS/"
+        "label": "AP / CBS Sports — Game recap ↗",
+        "url": "https://www.cbssports.com/nhl/gametracker/recap/NHL_20261101_MIN%40WAS/"
       }
     },
     {
-      "id": "discover-02",
+      "id": "2026-11-02-02",
       "section": "The Daily Pour",
       "kind": "story",
-      "meta": "PUBLIC LANDS · 2 MIN",
-      "title": "Arizona's newest national park has a volcanic origin",
-      "summary": "NASA's Earth Observatory looks at Chiricahua National Park, where eruptions about 27 million years ago left rock that erosion sculpted into extraordinary spires and balanced formations.",
+      "meta": "NATURE · 3 MIN",
+      "title": "Pennsylvania's own Grand Canyon gets an autumn portrait from space",
+      "summary": "NASA's Earth Observatory highlighted Pine Creek Gorge, a forested canyon some 45 miles long and as much as 1,500 feet deep. A Landsat view and on-the-ground photography show how fall color outlines a very different kind of canyon.",
       "source": {
-        "label": "Source: NASA Earth Observatory ↗",
-        "url": "https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/"
+        "label": "NASA Earth Observatory — Article ↗",
+        "url": "https://science.nasa.gov/earth/earth-observatory/pennsylvanias-grand-canyon/"
       }
     },
     {
-      "id": "discover-03",
+      "id": "2026-11-02-03",
       "section": "A Little Froth",
       "kind": "story",
-      "meta": "ANIMAL BEHAVIOR · 2 MIN",
-      "title": "Do spiders dream? Their sleep is surprisingly complicated",
-      "summary": "Researchers studying jumping spiders observed two sleep stages, including REM-like eye movements and muscle twitches. The findings do not establish that spiders dream—but they do challenge simple assumptions about animal sleep.",
+      "meta": "MARS · 1 MIN",
+      "title": "A cloud on Mars can stretch more than 900 miles",
+      "summary": "Near the Martian volcano Arsia Mons, a seasonal morning water-ice cloud can form a tail more than 1,500 kilometers long. NASA's Astronomy Picture of the Day revisits this spectacular formation—and the puzzle of how it forms in such thin air.",
       "source": {
-        "label": "Source: ScienceDaily / University of Bonn ↗",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261026225555.htm"
-      },
-      "deepDiveId": "featured"
+        "label": "NASA Astronomy Picture of the Day ↗",
+        "url": "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/"
+      }
     },
     {
-      "id": "discover-04",
+      "id": "2026-11-02-04",
       "section": "A Little Froth",
       "kind": "story",
-      "meta": "SPACE ODDITIES · 1 MIN",
-      "title": "One moon briefly disappears behind another",
-      "summary": "NASA's astronomy picture for today shows Ganymede passing in front of Io. The rare mutual occultation is a reminder that Jupiter's moons put on their own celestial performances.",
+      "meta": "WILDLIFE · 2 MIN",
+      "title": "Five cheetah cubs and a camera in Front Royal",
+      "summary": "The Smithsonian's conservation campus welcomed five cubs born to cheetah Zura on October 5. They're not on public display, but a live den camera lets curious viewers peek into the family's life while keepers monitor them remotely.",
       "source": {
-        "label": "Source: NASA Astronomy Picture of the Day ↗",
-        "url": "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/"
+        "label": "Smithsonian National Zoo — Cub Cam ↗",
+        "url": "https://nationalzoo.si.edu/webcams/cheetah-cub-cam"
       }
     },
     {
-      "id": "discover-05",
+      "id": "2026-11-02-05",
       "section": "Something to Chew On",
       "kind": "story",
-      "meta": "PALEONTOLOGY · 3 MIN",
-      "title": "An ancient amphibian that lived at sea",
-      "summary": "New fossils from roughly 237 million years ago point to an armored amphibian that may have spent its life in salt water—an unexpected evolutionary solution for animals whose skin generally presents challenges in marine environments.",
+      "meta": "HISTORY OF BOOKS · 3 MIN",
+      "title": "A bird book that takes two people to open",
+      "summary": "The Library of Congress preserves Audubon's four-volume Birds of America, with 435 life-size bird illustrations. The monumental set weighs a combined 196 pounds—a striking reminder that publishing once meant engineering paper as much as words.",
       "source": {
-        "label": "Source: Reuters ↗",
-        "url": "https://www.reuters.com/business/environment/ancient-armored-bottom-feeder-is-first-seagoing-amphibian-2026-10-27/"
+        "label": "Library of Congress — Article ↗",
+        "url": "https://blogs.loc.gov/loc/2026/10/john-j-audubons-breathtaking-book-of-birds/"
+      }
+    },
+    {
+      "id": "2026-11-02-06",
+      "section": "Something to Chew On",
+      "kind": "story",
+      "meta": "FOSSILS · 3 MIN",
+      "title": "One tiny fossil rewrites the timeline of flying insects",
+      "summary": "A jaw fragment less than a millimeter long was once treated as evidence of the earliest winged insects. New high-resolution microscopy raises doubts about its identity, potentially shifting estimates for when flight evolved by tens of millions of years.",
+      "source": {
+        "label": "Natural History Museum — Research summary ↗",
+        "url": "https://www.nhm.ac.uk/press-office/press-releases/flying-insects-are-80-million-years-younger-than-first-thought.html"
       },
-      "deepDiveId": "featured"
+      "deepDiveId": "fossil-timeline"
     },
     {
-      "id": "discover-06",
+      "id": "2026-11-02-07",
       "section": "Something to Chew On",
       "kind": "story",
-      "meta": "GEOLOGY · 2 MIN",
-      "title": "How volcanoes built a landscape of stone towers",
-      "summary": "The rock pinnacles at Chiricahua began with enormous volcanic deposits; weathering and erosion did the patient sculpting. NASA's satellite view reveals the larger landscape surrounding those formations.",
+      "meta": "COSMOLOGY · 3 MIN",
+      "title": "Scientists build a virtual universe to check what telescopes see",
+      "summary": "The Harvard–Smithsonian team's Lumina simulation models gas, dark matter and radiation through the universe's first two billion years. Its enormous scale gives researchers another way to test explanations for galaxies seen by advanced telescopes.",
       "source": {
-        "label": "Source: NASA Earth Observatory ↗",
-        "url": "https://science.nasa.gov/earth/earth-observatory/the-land-of-the-standing-up-rocks/"
+        "label": "Smithsonian — Research release ↗",
+        "url": "https://www.si.edu/newsdesk/releases/smithsonian-scientists-create-most-detailed-simulation-yet-early-universe"
       }
     },
     {
-      "id": "discover-07",
-      "section": "Something to Chew On",
-      "kind": "story",
-      "meta": "ASTRONOMY · 2 MIN",
-      "title": "Why Jupiter's moons sometimes eclipse each other",
-      "summary": "The alignment needed to see one Galilean moon pass in front of another from Earth occurs around Jupiter's equinox. These events reveal how our viewing angle changes what we can observe.",
-      "source": {
-        "label": "Source: NASA Astronomy Picture of the Day ↗",
-        "url": "https://science.nasa.gov/image-article/apod-2026-october-28-the-mutual-occultation-of-ganymede-and-io/"
-      }
-    },
-    {
-      "id": "discover-08",
+      "id": "2026-11-02-08",
       "section": "The Last Sip",
       "kind": "quote",
-      "quote": "“Imagination will often carry us to worlds that never were. But without it we go nowhere.”",
-      "attribution": "— Carl Sagan",
+      "quote": "“If there is no struggle, there is no progress.”",
+      "attribution": "— Frederick Douglass, 1857",
       "source": {
-        "label": "Source: The Carl Sagan Portal ↗",
-        "url": "https://carlsagan.com/books/"
+        "label": "Library of Congress — Quotation source ↗",
+        "url": "https://www.loc.gov/pictures/resource/ppmsca.84280/"
       }
     }
   ],
   "deepDives": [
     {
-      "id": "featured",
-      "html": "<div class=\"over\">Animal behavior · Paleontology · Evidence</div><h2>When nature surprises us: what spiders and ancient amphibians teach us about evidence</h2><p class=\"intro\">What can a sleeping jumping spider and a fossil marine amphibian tell us about scientific discovery? Both stories remind us that unexpected evidence can challenge familiar assumptions—without answering every question.</p><div class=\"note\">This is an <strong>editorial connection</strong> between two independent research stories. The findings do not establish a biological link between spider sleep and ancient amphibians.</div><h4>The surprising observations</h4><p>Researchers studying the jumping spider <em>Portia fimbriata</em> reported behavioral evidence of two regulated sleep stages. One included eye movements and muscle twitches similar in appearance to REM sleep. That is intriguing, but it does not show that spiders experience dreams.</p><p>Separately, fossil discoveries in China point to <em>Gerrothorax maritimus</em>, an amphibian that apparently lived in Triassic seas about 237 million years ago. Its armor and other characteristics have prompted hypotheses about how it managed the challenges of salt water.</p><h4>What the evidence can—and cannot—tell us</h4><p>Spider researchers observed behavior and responses to disturbance; they did not directly measure dream experiences. Paleontologists interpreted anatomy, sediment context, and chemical evidence; they cannot watch the extinct animal swim. Each field asks questions that its available evidence can address.</p><h4>The connection worth keeping</h4><p>Discovery often begins when observations fail to fit our expectations. Good inquiry means following those clues while keeping claims within what the evidence supports.</p><div class=\"note\"><strong>Want to explore further?</strong> These are short summaries of publicly accessible reporting. Use the original sources below for methods, uncertainties, and context.</div><h4>Sources</h4><ul class=\"source-list\"><li><a href=\"https://www.sciencedaily.com/releases/2026/10/261026225555.htm\" rel=\"noopener noreferrer\" target=\"_blank\">University of Bonn research on spider sleep — ScienceDaily ↗</a></li><li><a href=\"https://www.reuters.com/business/environment/ancient-armored-bottom-feeder-is-first-seagoing-amphibian-2026-10-27/\" rel=\"noopener noreferrer\" target=\"_blank\">Early marine amphibian fossil research — Reuters ↗</a></li></ul><p class=\"muted\">This Deep Dive presents a bounded synthesis of linked reports; it is not a substitute for their full research papers.</p><h4>Other Places to Explore</h4><p>For additional curiosity-driven science discoveries, explore <a href=\"https://science.nasa.gov/\" rel=\"noopener noreferrer\" target=\"_blank\">NASA Science ↗</a>.</p>"
+      "id": "fossil-timeline",
+      "html": "<div class=\"over\">Paleontology · Evidence · Scientific revision</div>\n<h2>When a fossil changes its story</h2>\n<p class=\"intro\">A fragment smaller than a grain of rice helped anchor the history of flying insects for decades. New microscopy has raised a more interesting question: what happens when the evidence behind a familiar scientific timeline no longer holds up?</p>\n<h4>The discovery behind the date</h4>\n<p>The fossil <em>Rhyniognatha hirsti</em> was found in Scotland's Rhynie Chert and preserves only a portion of an ancient arthropod's head. Earlier comparisons of its jaws supported an identification as an early winged insect. That identification mattered because researchers used the fossil as a minimum-age reference when estimating the evolution of insects and flight.</p>\n<h4>A second look with different tools</h4>\n<p>Scientists at London's Natural History Museum revisited the fossil using confocal microscopy, which helps distinguish fine structures within a specimen. The joint arrangements they observed did not clearly match those of living flying insects or centipedes. The researchers concluded that the fragment cannot currently be assigned with enough confidence to anchor the evolutionary date.</p>\n<div class=\"note\"><strong>The important distinction:</strong> The research does not establish a precise new birthday for insect flight. It challenges the reliability of a fossil previously used to set that date. The museum says the change could shift estimates by as much as 80 million years.</div>\n<h4>What this teaches us about evidence</h4>\n<p>Scientific knowledge develops not only when researchers find something new, but also when they reassess older evidence with better methods. A collection specimen can become relevant again long after its discovery. Equally important, removing an unreliable reference point is not a failure of science; it is a refinement of the explanation that the evidence can support.</p>\n<p>The broader lesson is one of confidence and limits. A strong account of discovery should explain what the researchers observed, what they infer, and what remains unresolved.</p>\n<div class=\"note\"><strong>Want to explore further?</strong> This Deep Dive is a short editorial synthesis of the publicly available research summary below. Follow the original source for the evidence and its nuances.</div>\n<h4>Sources</h4>\n<ul class=\"source-list\"><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.nhm.ac.uk/press-office/press-releases/flying-insects-are-80-million-years-younger-than-first-thought.html\">Natural History Museum — Researchers revisit the tiny fossil <em>Rhyniognatha</em></a></li></ul>\n<p class=\"muted\">This editorial synthesis is limited to the linked, freely available account. The underlying scientific paper was not treated as independently reviewed here.</p>\n<h4>Other Places to Explore</h4>\n<p>For a related look at how museums make discoveries accessible, explore the <a href=\"https://www.naturalsciences.org/calendar/news/rare-ostrich-like-dinosaur-ready-for-study/\" target=\"_blank\" rel=\"noopener noreferrer\">North Carolina Museum of Natural Sciences' public dinosaur-preparation lab</a>, where a newly recovered fossil is being studied in view of visitors.</p>"
     }
   ],
   "edition": {
-    "id": "2026-10-28-sample",
-    "date": "2026-10-28",
-    "label": "October 28, 2026 · Freshly curated edition",
+    "id": "2026-11-02-cup-01",
+    "date": "2026-11-02",
+    "label": "November 2, 2026 · Freshly curated edition",
     "discoveryIds": [
-      "discover-01",
-      "discover-02",
-      "discover-03",
-      "discover-04",
-      "discover-05",
-      "discover-06",
-      "discover-07",
-      "discover-08"
+      "2026-11-02-01",
+      "2026-11-02-02",
+      "2026-11-02-03",
+      "2026-11-02-04",
+      "2026-11-02-05",
+      "2026-11-02-06",
+      "2026-11-02-07",
+      "2026-11-02-08"
     ],
-    "featuredDiveId": "featured"
+    "featuredDiveId": "fossil-timeline"
   }
 }
