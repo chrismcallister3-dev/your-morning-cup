@@ -5,14 +5,48 @@ import { mkdtemp, writeFile, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { readFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import { readCatalog, validateCatalog } from './catalog-validator.mjs';
 
 const catalog = await readCatalog(new URL('../content/catalog.json', import.meta.url));
+const multiple = await readCatalog(new URL('./fixtures/catalog.multiple-deep-dives.json', import.meta.url));
 const validator = fileURLToPath(new URL('./catalog-validator.mjs', import.meta.url));
 const run = path => spawnSync(process.execPath, [validator, ...(path ? [path] : [])], { encoding: 'utf8' });
 
 test('existing editorial catalog passes the baseline contract', () => {
   assert.deepEqual(validateCatalog(catalog), []);
+});
+
+test('published November 2 catalog remains byte-for-byte unchanged', async () => {
+  const bytes = await readFile(new URL('../content/catalog.json', import.meta.url));
+  assert.equal(createHash('sha256').update(bytes).digest('hex'),
+    '54c17c455a8a3ed159115c343333d61b2bfba91856b2bbede2905243b56385af');
+});
+
+test('multiple-Deep-Dive fixture passes validation with the requested independent relationships', () => {
+  assert.deepEqual(validateCatalog(multiple), []);
+  assert.equal(multiple.items.find(x => x.id === '2026-11-02-02').deepDiveId, 'pine-creek-landscape');
+  assert.equal(multiple.items.find(x => x.id === '2026-11-02-07').deepDiveId, 'lumina-cosmic-dawn');
+  assert.equal(multiple.deepDives.length, catalog.deepDives.length + 2);
+  assert.equal(multiple.edition.featuredDiveId, catalog.edition.featuredDiveId);
+});
+
+test('fixture preserves all existing editorial text and adds only test metadata, relationships, and articles', () => {
+  const copy = structuredClone(multiple);
+  for (const id of ['2026-11-02-02', '2026-11-02-07']) delete copy.items.find(x => x.id === id).deepDiveId;
+  copy.editorialStatus = catalog.editorialStatus;
+  copy.edition.id = catalog.edition.id;
+  copy.edition.label = catalog.edition.label;
+  for (const dive of copy.deepDives.slice(catalog.deepDives.length)) {
+    assert.match(dive.html, /TEST CONTENT/);
+    assert.match(dive.html, /not for publication/i);
+  }
+  copy.deepDives = copy.deepDives.slice(0, catalog.deepDives.length);
+  assert.deepEqual(copy, catalog);
+  assert.match(multiple.editorialStatus, /test-only/);
+  assert.match(multiple.edition.label, /TEST CONTENT/);
+  assert.notEqual(multiple.edition.id, catalog.edition.id);
 });
 
 // Mutations are made only to in-memory copies; editorial files are never rewritten.

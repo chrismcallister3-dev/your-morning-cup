@@ -10,7 +10,8 @@ const names=['The Daily Pour','A Little Froth','Something to Chew On','The Last 
 const panel=document.querySelector('#ymc-discover .pane-scroll');
 const sections=[...panel.querySelectorAll('.sect')];
 const article=document.querySelector('#ymc-deep .article');
-const dive=(d.deepDives||[]).find(x=>x.id===d.edition.featuredDiveId);
+const dives=new Map((d.deepDives||[]).map(x=>[x.id,x]));
+const dive=dives.get(d.edition.featuredDiveId);
 if(sections.length!==names.length||!article||!dive)throw new Error('Missing layout');
 const node=(tag,cls,content)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(content!==undefined)e.textContent=content;return e;};
 const link=source=>{const a=node('a','',source.label);a.href=source.url;a.target='_blank';a.rel='noopener noreferrer';return a;};
@@ -24,7 +25,15 @@ if(item.source)card.append(link(item.source));
 }else{
 card.append(node('div','meta',item.meta||''),node('h3','',item.title),node('p','',item.summary));
 const ll=node('div','linkline');if(item.source)ll.append(link(item.source));
-if(item.deepDiveId){const b=node('button','diveBtn','Take a Deeper Dive?');b.dataset.dive=item.deepDiveId;b.addEventListener('click',()=>document.querySelector('.tab[data-go="deep"]').click());ll.append(b);}
+if(item.deepDiveId){
+const selected=dives.get(item.deepDiveId);
+if(!selected)throw new Error('Missing story Deep Dive');
+const b=node('button','diveBtn','Take a Deeper Dive?');b.dataset.dive=item.deepDiveId;
+b.addEventListener('click',()=>{
+article.innerHTML=selected.html;
+// Navigation owns panel switching and the card-specific scroll reset.
+document.getElementById('ymc').dispatchEvent(new CustomEvent('ymc:open-dive'));
+});ll.append(b);}
 card.append(ll);}
 groups.get(item.section).push(card);
 }

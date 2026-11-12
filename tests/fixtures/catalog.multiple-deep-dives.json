@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "editorialStatus": "test-only-not-for-publication",
+  "items": [
+    {
+      "id": "2026-11-02-01",
+      "section": "The Daily Pour",
+      "kind": "story",
+      "meta": "HOCKEY · 2 MIN",
+      "title": "Capitals' three-game run ends against Minnesota",
+      "summary": "The Wild struck twice in the opening six minutes and beat Washington 5–1 on Sunday. Justin Sourdif scored the Capitals’ only goal; Minnesota's Kirill Kaprizov reached 500 career points with an empty-net goal.",
+      "source": {
+        "label": "AP / CBS Sports — Game recap ↗",
+        "url": "https://www.cbssports.com/nhl/gametracker/recap/NHL_20261101_MIN%40WAS/"
+      }
+    },
+    {
+      "id": "2026-11-02-02",
+      "section": "The Daily Pour",
+      "kind": "story",
+      "meta": "NATURE · 3 MIN",
+      "title": "Pennsylvania's own Grand Canyon gets an autumn portrait from space",
+      "summary": "NASA's Earth Observatory highlighted Pine Creek Gorge, a forested canyon some 45 miles long and as much as 1,500 feet deep. A Landsat view and on-the-ground photography show how fall color outlines a very different kind of canyon.",
+      "source": {
+        "label": "NASA Earth Observatory — Article ↗",
+        "url": "https://science.nasa.gov/earth/earth-observatory/pennsylvanias-grand-canyon/"
+      },
+      "deepDiveId": "pine-creek-landscape"
+    },
+    {
+      "id": "2026-11-02-03",
+      "section": "A Little Froth",
+      "kind": "story",
+      "meta": "MARS · 1 MIN",
+      "title": "A cloud on Mars can stretch more than 900 miles",
+      "summary": "Near the Martian volcano Arsia Mons, a seasonal morning water-ice cloud can form a tail more than 1,500 kilometers long. NASA's Astronomy Picture of the Day revisits this spectacular formation—and the puzzle of how it forms in such thin air.",
+      "source": {
+        "label": "NASA Astronomy Picture of the Day ↗",
+        "url": "https://science.nasa.gov/image-article/apod-2026-november-2-a-long-cloud-on-mars/"
+      }
+    },
+    {
+      "id": "2026-11-02-04",
+      "section": "A Little Froth",
+      "kind": "story",
+      "meta": "WILDLIFE · 2 MIN",
+      "title": "Five cheetah cubs and a camera in Front Royal",
+      "summary": "The Smithsonian's conservation campus welcomed five cubs born to cheetah Zura on October 5. They're not on public display, but a live den camera lets curious viewers peek into the family's life while keepers monitor them remotely.",
+      "source": {
+        "label": "Smithsonian National Zoo — Cub Cam ↗",
+        "url": "https://nationalzoo.si.edu/webcams/cheetah-cub-cam"
+      }
+    },
+    {
+      "id": "2026-11-02-05",
+      "section": "Something to Chew On",
+      "kind": "story",
+      "meta": "HISTORY OF BOOKS · 3 MIN",
+      "title": "A bird book that takes two people to open",
+      "summary": "The Library of Congress preserves Audubon's four-volume Birds of America, with 435 life-size bird illustrations. The monumental set weighs a combined 196 pounds—a striking reminder that publishing once meant engineering paper as much as words.",
+      "source": {
+        "label": "Library of Congress — Article ↗",
+        "url": "https://blogs.loc.gov/loc/2026/10/john-j-audubons-breathtaking-book-of-birds/"
+      }
+    },
+    {
+      "id": "2026-11-02-06",
+      "section": "Something to Chew On",
+      "kind": "story",
+      "meta": "FOSSILS · 3 MIN",
+      "title": "One tiny fossil rewrites the timeline of flying insects",
+      "summary": "A jaw fragment less than a millimeter long was once treated as evidence of the earliest winged insects. New high-resolution microscopy raises doubts about its identity, potentially shifting estimates for when flight evolved by tens of millions of years.",
+      "source": {
+        "label": "Natural History Museum — Research summary ↗",
+        "url": "https://www.nhm.ac.uk/press-office/press-releases/flying-insects-are-80-million-years-younger-than-first-thought.html"
+      },
+      "deepDiveId": "fossil-timeline"
+    },
+    {
+      "id": "2026-11-02-07",
+      "section": "Something to Chew On",
+      "kind": "story",
+      "meta": "COSMOLOGY · 3 MIN",
+      "title": "Scientists build a virtual universe to check what telescopes see",
+      "summary": "The Harvard–Smithsonian team's Lumina simulation models gas, dark matter and radiation through the universe's first two billion years. Its enormous scale gives researchers another way to test explanations for galaxies seen by advanced telescopes.",
+      "source": {
+        "label": "Smithsonian — Research release ↗",
+        "url": "https://www.si.edu/newsdesk/releases/smithsonian-scientists-create-most-detailed-simulation-yet-early-universe"
+      },
+      "deepDiveId": "lumina-cosmic-dawn"
+    },
+    {
+      "id": "2026-11-02-08",
+      "section": "The Last Sip",
+      "kind": "quote",
+      "quote": "“If there is no struggle, there is no progress.”",
+      "attribution": "— Frederick Douglass, 1857",
+      "source": {
+        "label": "Library of Congress — Quotation source ↗",
+        "url": "https://www.loc.gov/pictures/resource/ppmsca.84280/"
+      }
+    }
+  ],
+  "deepDives": [
+    {
+      "id": "fossil-timeline",
+      "html": "<div class=\"over\">Paleontology · Evidence · Scientific revision</div>\n<h2>When a fossil changes its story</h2>\n<p class=\"intro\">A fragment smaller than a grain of rice helped anchor the history of flying insects for decades. New microscopy has raised a more interesting question: what happens when the evidence behind a familiar scientific timeline no longer holds up?</p>\n<h4>The discovery behind the date</h4>\n<p>The fossil <em>Rhyniognatha hirsti</em> was found in Scotland's Rhynie Chert and preserves only a portion of an ancient arthropod's head. Earlier comparisons of its jaws supported an identification as an early winged insect. That identification mattered because researchers used the fossil as a minimum-age reference when estimating the evolution of insects and flight.</p>\n<h4>A second look with different tools</h4>\n<p>Scientists at London's Natural History Museum revisited the fossil using confocal microscopy, which helps distinguish fine structures within a specimen. The joint arrangements they observed did not clearly match those of living flying insects or centipedes. The researchers concluded that the fragment cannot currently be assigned with enough confidence to anchor the evolutionary date.</p>\n<div class=\"note\"><strong>The important distinction:</strong> The research does not establish a precise new birthday for insect flight. It challenges the reliability of a fossil previously used to set that date. The museum says the change could shift estimates by as much as 80 million years.</div>\n<h4>What this teaches us about evidence</h4>\n<p>Scientific knowledge develops not only when researchers find something new, but also when they reassess older evidence with better methods. A collection specimen can become relevant again long after its discovery. Equally important, removing an unreliable reference point is not a failure of science; it is a refinement of the explanation that the evidence can support.</p>\n<p>The broader lesson is one of confidence and limits. A strong account of discovery should explain what the researchers observed, what they infer, and what remains unresolved.</p>\n<div class=\"note\"><strong>Want to explore further?</strong> This Deep Dive is a short editorial synthesis of the publicly available research summary below. Follow the original source for the evidence and its nuances.</div>\n<h4>Sources</h4>\n<ul class=\"source-list\"><li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.nhm.ac.uk/press-office/press-releases/flying-insects-are-80-million-years-younger-than-first-thought.html\">Natural History Museum — Researchers revisit the tiny fossil <em>Rhyniognatha</em></a></li></ul>\n<p class=\"muted\">This editorial synthesis is limited to the linked, freely available account. The underlying scientific paper was not treated as independently reviewed here.</p>\n<h4>Other Places to Explore</h4>\n<p>For a related look at how museums make discoveries accessible, explore the <a href=\"https://www.naturalsciences.org/calendar/news/rare-ostrich-like-dinosaur-ready-for-study/\" target=\"_blank\" rel=\"noopener noreferrer\">North Carolina Museum of Natural Sciences' public dinosaur-preparation lab</a>, where a newly recovered fossil is being studied in view of visitors.</p>"
+    },
+    {
+      "id": "pine-creek-landscape",
+      "html": "<div class=\"over\">TEST CONTENT · Not for publication · Landscape</div>\n<h2>TEST CONTENT: Reading the landscape of Pine Creek Gorge</h2>\n<p class=\"intro\">Pine Creek Gorge offers two different views of the same place: a wooded valley experienced from a trail or overlook, and a pattern of ridges and branching streams visible from space. This test article explores how those perspectives complement one another. It is development-only content based on the existing discovery and its linked NASA account, not an independently verified edition for publication.</p>\n<h4>A canyon is more than its outline</h4>\n<p>The November 2 discovery describes a forested gorge about 45 miles long and up to 1,500 feet deep. Those measurements convey scale, but they do not explain the landscape by themselves. A valley is a relationship between the stream at its floor, the slopes beside it, and the surrounding uplands. Asking where the water comes from and where it flows next turns a scenic view into a connected watershed.</p>\n<p>Rock, moving water, weathering, and the transport of sediment all matter when interpreting a valley. A photograph records the shape that these processes have produced, rather than revealing every step of its history. Distinguishing what the image shows from what geological evidence would be needed to explain it is an important part of reading a landscape responsibly.</p>\n<h4>What the satellite view contributes</h4>\n<p>A Landsat image provides a wider frame than a visitor can usually see from one viewpoint. Tributaries, forest cover, and the continuity of the valley become easier to compare. The branching arrangement of streams can help a reader recognize that the gorge belongs to a larger drainage system instead of treating it as an isolated landmark.</p>\n<p>That wider view also has limits. Image scale affects which features are visible, while the date and lighting influence their appearance. A satellite image cannot replace a field description of rock layers or a measurement of stream conditions. Its strength is context: it helps connect individual observations to the larger terrain.</p>\n<h4>Why autumn changes the picture</h4>\n<p>The linked discovery emphasizes fall color. Seasonal changes in foliage can make boundaries and slopes stand out in ways that differ from a summer view. They also remind us that a landscape image contains both enduring terrain and temporary conditions. The canyon remains while its visible canopy changes through the year.</p>\n<p>Comparing images from different seasons can therefore be revealing, but differences should not automatically be interpreted as permanent environmental change. A careful comparison would consider acquisition dates, weather, image processing, and what is actually being measured. Color is an invitation to investigate, rather than an explanation on its own.</p>\n<h4>Questions to carry to an overlook</h4>\n<p>Where do the smaller valleys join the main gorge? Which slopes are visible, and which are hidden by the viewing angle? How does the forest shape what can be seen of the ground? These questions connect a beautiful scene to observations that another person could examine and discuss.</p>\n<div class=\"note\"><strong>TEST CONTENT — not for publication.</strong> This article exists to exercise independent Deep Dive selection and scrolling. Facts, wording, and source support require editorial review before any publication.</div>\n<h4>Source for the test discovery</h4>\n<ul class=\"source-list\"><li><a href=\"https://science.nasa.gov/earth/earth-observatory/pennsylvanias-grand-canyon/\" target=\"_blank\" rel=\"noopener noreferrer\">NASA Earth Observatory — Pennsylvania's Grand Canyon</a></li></ul>"
+    },
+    {
+      "id": "lumina-cosmic-dawn",
+      "html": "<div class=\"over\">TEST CONTENT · Not for publication · Cosmology</div>\n<h2>TEST CONTENT: Lumina and the challenge of modeling cosmic dawn</h2>\n<p class=\"intro\">The November 2 discovery describes Lumina as a simulation of gas, dark matter, and radiation during the universe's first two billion years. This development-only article asks what researchers can learn by comparing a virtual universe with observations. It uses the existing catalog summary as its starting point and is not an independently reviewed scientific report.</p>\n<h4>A model is a controlled set of assumptions</h4>\n<p>A cosmological simulation represents a physical system through mathematical rules and numerical calculations. Researchers specify initial conditions and decide how to represent processes that span very different scales. The resulting virtual universe is useful because those choices can be examined, compared, and changed in a controlled way.</p>\n<p>Gas, dark matter, and radiation are not interchangeable ingredients. Gravity shapes the distribution of matter, while the behavior of gas and its interaction with radiation influence the environments in which galaxies develop. Following these components together makes the calculation more informative, but also more demanding.</p>\n<h4>Why early galaxies pose a comparison problem</h4>\n<p>Telescopes collect light rather than directly displaying every physical property of a distant galaxy. Interpreting that light requires an account of how it was produced and how it traveled to the observer. A simulation can help researchers connect a proposed physical history with an observable pattern that can be compared with data.</p>\n<p>This is especially useful when an observation seems difficult to explain. A model can test whether a particular combination of assumptions produces similar structures or signals. Agreement is informative, but it does not establish that the model is the only possible explanation. Different physical choices can sometimes produce similar observable outcomes.</p>\n<h4>Scale brings opportunities and tradeoffs</h4>\n<p>The catalog emphasizes Lumina's large scale. Modeling a larger region can reveal a wider range of environments and make comparisons less dependent on one unusual location. Yet computational resources are finite: the region represented, the detail resolved, and the physical processes included must be considered together.</p>\n<p>Processes too small to follow directly may require approximations. Those approximations are part of the scientific model, not details that can be ignored when reading the results. A useful account should explain which behavior is calculated explicitly, which is represented indirectly, and how sensitive a conclusion is to those choices.</p>\n<h4>How simulations and observations challenge each other</h4>\n<p>A discrepancy between a model and a telescope measurement can point in several directions. The model may omit relevant physics, its numerical resolution may matter, or the interpretation of the observation may need another look. The productive question is what additional evidence would distinguish these possibilities.</p>\n<p>Repeating a comparison with different assumptions or independent observations helps establish which conclusions are robust. Simulations therefore work best as part of an exchange between theory, computation, and measurement. They organize explanations and expose questions that a single image or a single calculation cannot settle.</p>\n<h4>What this test article does not establish</h4>\n<p>This article does not claim that Lumina proves a particular account of galaxy formation or resolves every puzzle about the early universe. Its purpose is to provide a substantial, separately selectable article for navigation testing while illustrating why methods and uncertainty belong alongside an exciting research headline.</p>\n<div class=\"note\"><strong>TEST CONTENT — not for publication.</strong> The original research, numerical specifications, and editorial claims must be reviewed before this material could be considered for a real edition.</div>\n<h4>Source for the test discovery</h4>\n<ul class=\"source-list\"><li><a href=\"https://www.si.edu/newsdesk/releases/smithsonian-scientists-create-most-detailed-simulation-yet-early-universe\" target=\"_blank\" rel=\"noopener noreferrer\">Smithsonian — Early-universe simulation research release</a></li></ul>"
+    }
+  ],
+  "edition": {
+    "id": "test-03-multiple-deep-dives",
+    "date": "2026-11-02",
+    "label": "TEST CONTENT — November 2, 2026 · Multiple Deep Dives",
+    "discoveryIds": [
+      "2026-11-02-01",
+      "2026-11-02-02",
+      "2026-11-02-03",
+      "2026-11-02-04",
+      "2026-11-02-05",
+      "2026-11-02-06",
+      "2026-11-02-07",
+      "2026-11-02-08"
+    ],
+    "featuredDiveId": "fossil-timeline"
+  }
+}
