@@ -2,7 +2,7 @@
   "schemaVersion": "pilot-1",
   "status": "editorial-source-registry",
   "updatedAt": "2026-11-19",
-  "notes": "Source-level approval carries through to article-level editorial approval. Unapproved sources and their articles remain pending source qualification. Article-specific publication readiness still applies.",
+  "notes": "Source-level approvals apply only to publishers explicitly approved by the owner. Individual article approvals from provisional publishers are retained independently. P027 remains an unapproved IOC exception.",
   "sources": [
     {
       "sourceId": "smithsonian-magazine",
@@ -28,11 +28,15 @@
       "sourceId": "history",
       "name": "HISTORY",
       "domain": "history.com",
-      "editorialApproval": "approved",
-      "reviewPath": "source-approved-articles-editorially-approved",
+      "editorialApproval": "provisional-additional-samples-required",
+      "reviewPath": "article-level-approval-until-source-qualified",
       "rightsStatus": "not-evaluated",
-      "scope": "First introduced in Batch 3. Approval at publisher level will approve associated discoveries editorially.; editorial approval carries to associated articles except explicitly flagged exceptions",
-      "approvedAt": "2026-11-19"
+      "scope": "Two Batch 3 articles approved individually; review additional HISTORY articles before granting publisher-wide editorial approval.",
+      "qualifyingReviewNeeded": "Several additional articles across representative history topics",
+      "existingApprovedDiscoveries": [
+        "YMC-P021",
+        "YMC-P022"
+      ]
     },
     {
       "sourceId": "phys-org",
@@ -41,7 +45,7 @@
       "editorialApproval": "approved",
       "reviewPath": "source-approved-articles-editorially-approved",
       "rightsStatus": "not-evaluated",
-      "scope": "First introduced in Batch 3. Approval at publisher level will approve associated discoveries editorially.; editorial approval carries to associated articles except explicitly flagged exceptions",
+      "scope": "Source-level editorial approval explicitly confirmed by owner. Article-level publication readiness checks still apply.",
       "approvedAt": "2026-11-19"
     },
     {
@@ -65,11 +69,16 @@
       "sourceId": "guinness-world-records",
       "name": "Guinness World Records",
       "domain": "guinnessworldrecords.com",
-      "editorialApproval": "approved",
-      "reviewPath": "source-approved-articles-editorially-approved",
+      "editorialApproval": "provisional-additional-samples-required",
+      "reviewPath": "article-level-approval-until-source-qualified",
       "rightsStatus": "not-evaluated",
-      "scope": "First introduced in Batch 3. Approval at publisher level will approve associated discoveries editorially.; editorial approval carries to associated articles except explicitly flagged exceptions",
-      "approvedAt": "2026-11-19"
+      "scope": "Three lighthearted Batch 3 discoveries approved individually; evaluate additional articles and variety before publisher-wide editorial approval.",
+      "qualifyingReviewNeeded": "More examples beyond lighthearted curiosities",
+      "existingApprovedDiscoveries": [
+        "YMC-P028",
+        "YMC-P029",
+        "YMC-P030"
+      ]
     }
   ],
   "approvalRule": "Publisher approval automatically grants article-level editorial approval except explicitly noted article exceptions, such as broken or inaccessible media. Publication readiness, rights, factual checks and freshness remain independent."
