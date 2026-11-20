@@ -1,6 +1,6 @@
 {
   "schemaVersion": "pilot-1",
-  "status": "partially-approved-not-published",
+  "status": "partially-approved-four-deferred-not-published",
   "createdAt": "2026-11-19",
   "batch": "04",
   "purpose": "Additional samples for provisional HISTORY and Guinness World Records, plus two new candidate publishers National Park Service and MIT News. No source-level approvals implied.",
@@ -25,11 +25,13 @@
       },
       "deepDive": null,
       "sourceReview": "source-research-reviewed-check-final-details-before-publishing",
-      "editorialStatus": "pending-source-qualification-or-individual-approval",
-      "publicationStatus": "hold-for-editorial-and-publication-readiness",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialApprovalBasis": "source-level-owner-approval:HISTORY"
     },
     {
       "id": "YMC-P032",
@@ -51,11 +53,13 @@
       },
       "deepDive": null,
       "sourceReview": "source-research-reviewed-check-final-details-before-publishing",
-      "editorialStatus": "pending-source-qualification-or-individual-approval",
-      "publicationStatus": "hold-for-editorial-and-publication-readiness",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialApprovalBasis": "source-level-owner-approval:HISTORY"
     },
     {
       "id": "YMC-P033",
@@ -77,11 +81,13 @@
       },
       "deepDive": null,
       "sourceReview": "source-research-reviewed-check-final-details-before-publishing",
-      "editorialStatus": "pending-source-qualification-or-individual-approval",
-      "publicationStatus": "hold-for-editorial-and-publication-readiness",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialApprovalBasis": "source-level-owner-approval:HISTORY"
     },
     {
       "id": "YMC-P034",
@@ -104,11 +110,13 @@
       },
       "deepDive": null,
       "sourceReview": "source-research-reviewed-check-final-details-before-publishing",
-      "editorialStatus": "pending-source-qualification-or-individual-approval",
+      "editorialStatus": "deferred-to-next-curation-session",
       "publicationStatus": "hold-for-editorial-and-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialDecisionNote": "Owner passed for now; represent for review at next content curation session. Not rejected, not approved.",
+      "reviewQueue": "next-content-curation-session"
     },
     {
       "id": "YMC-P035",
@@ -131,11 +139,13 @@
       },
       "deepDive": null,
       "sourceReview": "source-research-reviewed-check-final-details-before-publishing",
-      "editorialStatus": "pending-source-qualification-or-individual-approval",
+      "editorialStatus": "deferred-to-next-curation-session",
       "publicationStatus": "hold-for-editorial-and-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialDecisionNote": "Owner passed for now; represent for review at next content curation session. Not rejected, not approved.",
+      "reviewQueue": "next-content-curation-session"
     },
     {
       "id": "YMC-P036",
@@ -158,11 +168,13 @@
       },
       "deepDive": null,
       "sourceReview": "source-research-reviewed-check-final-details-before-publishing",
-      "editorialStatus": "pending-source-qualification-or-individual-approval",
+      "editorialStatus": "deferred-to-next-curation-session",
       "publicationStatus": "hold-for-editorial-and-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialDecisionNote": "Owner passed for now; represent for review at next content curation session. Not rejected, not approved.",
+      "reviewQueue": "next-content-curation-session"
     },
     {
       "id": "YMC-P037",
@@ -185,11 +197,13 @@
       },
       "deepDive": null,
       "sourceReview": "source-research-reviewed-check-final-details-before-publishing",
-      "editorialStatus": "pending-source-qualification-or-individual-approval",
+      "editorialStatus": "deferred-to-next-curation-session",
       "publicationStatus": "hold-for-editorial-and-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialDecisionNote": "Owner passed for now; represent for review at next content curation session. Not rejected, not approved.",
+      "reviewQueue": "next-content-curation-session"
     },
     {
       "id": "YMC-P038",
@@ -279,11 +293,21 @@
   ],
   "editorialApproval": {
     "approvedIds": [
+      "YMC-P031",
+      "YMC-P032",
+      "YMC-P033",
       "YMC-P038",
       "YMC-P039",
       "YMC-P040"
     ],
-    "scope": "Three NPS/MIT articles approved; other Batch 4 articles pending; publisher-wide source approval not assumed",
+    "deferredIds": [
+      "YMC-P034",
+      "YMC-P035",
+      "YMC-P036",
+      "YMC-P037"
+    ],
+    "approvedAt": "2026-11-19",
+    "scope": "HISTORY publisher approved; NPS and MIT articles previously approved; Guinness Batch 4 articles deferred for next curation session",
     "publicationAuthorization": false
   }
 }
