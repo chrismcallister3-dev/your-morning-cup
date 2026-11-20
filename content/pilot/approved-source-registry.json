@@ -60,8 +60,8 @@
       "exceptions": [
         {
           "discoveryId": "YMC-P027",
-          "status": "not-approved",
-          "reason": "Video did not display; requires source/media check before editorial approval"
+          "status": "dropped-by-owner",
+          "reason": "Video did not display; do not retry, publish, or represent for review."
         }
       ]
     },
