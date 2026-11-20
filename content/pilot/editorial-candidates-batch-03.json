@@ -1,10 +1,10 @@
 {
   "schemaVersion": "pilot-1",
-  "status": "source-qualification-pending-not-published",
+  "status": "partially-approved-one-explicit-exception-not-published",
   "createdAt": "2026-11-19",
   "batch": "03",
   "editorialApprovalPolicy": "Publisher/source approval also approves articles from that source editorially. Publication readiness remains separate (factual, metadata, recency and content rights checks).",
-  "purpose": "New-source expansion pilot. All four publishers are not yet source-approved by the owner; their articles remain pending source approval.",
+  "purpose": "Source-level approval recorded for four new publishers; nine articles approved, P027 explicitly not approved because video failed to display.",
   "records": [
     {
       "id": "YMC-P021",
@@ -26,11 +26,13 @@
       },
       "deepDive": null,
       "sourceReview": "source-page-reviewed",
-      "editorialStatus": "pending-source-level-approval",
-      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialApprovalBasis": "source-level-owner-approval"
     },
     {
       "id": "YMC-P022",
@@ -52,11 +54,13 @@
       },
       "deepDive": null,
       "sourceReview": "source-page-reviewed",
-      "editorialStatus": "pending-source-level-approval",
-      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialApprovalBasis": "source-level-owner-approval"
     },
     {
       "id": "YMC-P023",
@@ -78,11 +82,13 @@
       },
       "deepDive": null,
       "sourceReview": "source-page-reviewed",
-      "editorialStatus": "pending-source-level-approval",
-      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialApprovalBasis": "source-level-owner-approval"
     },
     {
       "id": "YMC-P024",
@@ -104,11 +110,13 @@
       },
       "deepDive": null,
       "sourceReview": "source-page-reviewed",
-      "editorialStatus": "pending-source-level-approval",
-      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialApprovalBasis": "source-level-owner-approval"
     },
     {
       "id": "YMC-P025",
@@ -130,11 +138,13 @@
       },
       "deepDive": null,
       "sourceReview": "source-page-reviewed",
-      "editorialStatus": "pending-source-level-approval",
-      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialApprovalBasis": "source-level-owner-approval"
     },
     {
       "id": "YMC-P026",
@@ -156,11 +166,15 @@
       },
       "deepDive": null,
       "sourceReview": "source-page-reviewed",
-      "editorialStatus": "pending-source-level-approval",
-      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialApprovalBasis": "source-level-owner-approval",
+      "editorialDecisionNote": "User confirms this IOC video/article is a current event with a short shelf life. Saved copies or references in a user's Library may remain accessible after general catalog eligibility ends.",
+      "savedItemRetentionPolicy": "Reader-saved entries may be retained as references after editorial expiry, with clear historical dating and subject to rights and source availability; no automatic live republication"
     },
     {
       "id": "YMC-P027",
@@ -182,11 +196,12 @@
       },
       "deepDive": null,
       "sourceReview": "source-page-reviewed",
-      "editorialStatus": "pending-source-level-approval",
-      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "editorialStatus": "not-approved-display-unverified",
+      "publicationStatus": "blocked-pending-display-and-editorial-review",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialDecisionNote": "Owner did not approve because IOC video did not display; hold for playback/source verification and further editorial decision."
     },
     {
       "id": "YMC-P028",
@@ -208,11 +223,13 @@
       },
       "deepDive": null,
       "sourceReview": "source-page-reviewed",
-      "editorialStatus": "pending-source-level-approval",
-      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialApprovalBasis": "source-level-owner-approval"
     },
     {
       "id": "YMC-P029",
@@ -234,11 +251,13 @@
       },
       "deepDive": null,
       "sourceReview": "source-page-reviewed",
-      "editorialStatus": "pending-source-level-approval",
-      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialApprovalBasis": "source-level-owner-approval"
     },
     {
       "id": "YMC-P030",
@@ -260,11 +279,32 @@
       },
       "deepDive": null,
       "sourceReview": "source-page-reviewed",
-      "editorialStatus": "pending-source-level-approval",
-      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialApprovalBasis": "source-level-owner-approval"
     }
-  ]
+  ],
+  "editorialApproval": {
+    "approvedAt": "2026-11-19",
+    "approvedIds": [
+      "YMC-P021",
+      "YMC-P022",
+      "YMC-P023",
+      "YMC-P024",
+      "YMC-P025",
+      "YMC-P026",
+      "YMC-P028",
+      "YMC-P029",
+      "YMC-P030"
+    ],
+    "notApprovedIds": [
+      "YMC-P027"
+    ],
+    "policy": "Owner source-level approval covers publisher articles by default, subject to explicit article-level exceptions.",
+    "publicationAuthorization": false
+  }
 }
