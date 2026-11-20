@@ -121,7 +121,7 @@
       "source": {
         "url": "https://www.noaa.gov/news/scientists-reveal-identity-of-mysterious-golden-orb-collected-during-noaa-expedition",
         "publisher": "NOAA",
-        "publishedAt": "2026-04-01"
+        "publishedAt": null
       },
       "deepDive": null,
       "sourceReview": "source-located-and-reviewed-in-research",
@@ -249,8 +249,8 @@
         "publishedAt": null
       },
       "deepDive": null,
-      "sourceReview": "source-located-and-reviewed-in-research",
-      "editorialStatus": "candidate-needs-human-review",
+      "sourceReview": "catalog-page-found-in-search;direct-page-access-blocked-needs-manual-verification",
+      "editorialStatus": "candidate-source-check-needed",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
       "publishCount": 0
