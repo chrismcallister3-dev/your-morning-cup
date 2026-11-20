@@ -2,7 +2,8 @@
    Uses only editorially approved catalog excerpts; no AI calls, logins, or server storage. */
 (async()=>{
 'use strict';
-const STORAGE='ymc.preview.edition.v1';
+const deepTest=new URLSearchParams(location.search).get('ymc_deep_test')==='1';
+const STORAGE=deepTest?'ymc.preview.deep-test.v1':'ymc.preview.edition.v1';
 const CAPACITY=3;
 const MAX_REFILLS=2;
 const $=s=>document.querySelector(s);
@@ -54,6 +55,10 @@ try{
  if(!response.ok)throw Error('Catalog fetch: '+response.status);
  const catalog=await response.json();
  if(catalog.schemaVersion!==2||!Array.isArray(catalog.items)||!catalog.items.length)throw Error('Invalid catalog structure');
+ const deepResponse=await fetch('content/deep-dives-pilot.json?rev=20261120a',{cache:'no-store'});
+ if(!deepResponse.ok)throw Error('Deep Dive catalog fetch failed');
+ const deepCatalog=await deepResponse.json();
+ const dives=new Map((deepCatalog.items||[]).map(x=>[x.id,x]));
  const index=new Map(catalog.items.map(i=>[i.id,i]));
  const pool=catalog.items.filter(eligible);
  const cached=read();
@@ -61,11 +66,14 @@ try{
  if(!state||state.date!==today){
    const seen=state?.seen?.filter(id=>index.has(id))||[];
    const poolLeft=pool.filter(x=>!seen.includes(x.id));
-   const chosen=select(poolLeft,CAPACITY,today,'first');
+   const chosen=deepTest?['YMC-P038','YMC-P039','YMC-P040'].map(id=>index.get(id)).filter(Boolean):select(poolLeft,CAPACITY,today,'first');
    state={date:today,ids:chosen.map(x=>x.id),seen:[...new Set([...seen,...chosen.map(x=>x.id)])],refillsUsed:0,scrollTop:0};
    store(state);
  }else{
    state.ids=state.ids.filter(id=>index.has(id)&&pool.some(x=>x.id===id));
+   if(deepTest&&state.ids.join(',')!=='YMC-P038,YMC-P039,YMC-P040'){
+     state.ids=['YMC-P038','YMC-P039','YMC-P040'];state.seen=[...new Set([...state.seen,...state.ids])];state.refillsUsed=0;state.scrollTop=0;
+   }
    store(state);
  }
  const quote=sections[3].nextElementSibling?.classList.contains('item')?sections[3].nextElementSibling.cloneNode(true):null;
@@ -77,6 +85,14 @@ try{
  refillBtn.type='button';
  const status=node('div','muted');
  status.style.marginTop='10px';
+ function renderDive(dive){
+   article.replaceChildren();
+   article.append(node('div','over',dive.eyebrow),node('h2','',dive.title),node('p','intro',dive.intro));
+   for(const section of dive.sections||[]){article.append(node('h4','',section.heading));for(const para of section.paragraphs||[])article.append(node('p','',para));}
+   article.append(node('h4','','Read the original reporting'));
+   const l=node('a','',dive.sourceLabel+' ↗');l.href=dive.sourceUrl;l.target='_blank';l.rel='noopener noreferrer';article.append(l);
+   article.append(node('p','muted','Original Morning Cup editorial interpretation based on the linked source; controlled preview test.'));
+ }
  function display(){
    sectionNames.forEach((name,i)=>{let n=sections[i].nextElementSibling;while(n&&n.classList.contains('item')){const next=n.nextElementSibling;n.remove();n=next;}});
    if(quote)sections[3].after(quote.cloneNode(true));
@@ -86,7 +102,10 @@ try{
      const it=selected[i],card=node('div','item');
      card.append(node('div','meta',it.category+' · '+it.editorialContribution.replace('-',' ')),node('h3','',it.title),node('p','',it.summary));
      const line=node('div','linkline'),a=node('a','',('Original source: '+it.source.publisher+' ↗'));
-     a.href=it.source.url;a.rel='noopener noreferrer';a.target='_blank';line.append(a);card.append(line);
+     a.href=it.source.url;a.rel='noopener noreferrer';a.target='_blank';line.append(a);
+     const dive=dives.get(it.id);
+     if(dive){const b=node('button','diveBtn','Take a Deeper Dive?');b.type='button';b.addEventListener('click',()=>{renderDive(dive);document.getElementById('ymc').dispatchEvent(new CustomEvent('ymc:open-dive'));});line.append(b);}
+     card.append(line);
      buckets[i%3].push(card);
    }
    buckets.forEach((cards,i)=>{const f=document.createDocumentFragment();cards.forEach(c=>f.append(c));sections[i].after(f);});
@@ -99,12 +118,12 @@ try{
    if(!status.isConnected)end.append(status);
    instruction.textContent=selected.length?'Your cup is empty. For now.':'No new eligible discoveries remain in this pilot catalog.';
    const remaining=MAX_REFILLS-state.refillsUsed;
-   refillBtn.disabled=remaining===0||!pool.some(x=>!state.seen.includes(x.id));
+   refillBtn.disabled=deepTest||remaining===0||!pool.some(x=>!state.seen.includes(x.id));
    refillBtn.style.opacity=refillBtn.disabled?'.4':'1';
-   status.textContent=remaining+' of '+MAX_REFILLS+' Refills remaining today'+(refillBtn.disabled&&remaining>0?' · Catalog currently exhausted':'');
+   status.textContent=deepTest?'Deep Dive navigation test · Refills disabled in this dedicated test':remaining+' of '+MAX_REFILLS+' Refills remaining today'+(refillBtn.disabled&&remaining>0?' · Catalog currently exhausted':'');
  }
  refillBtn.addEventListener('click',()=>{
-   if(state.date!==today||state.refillsUsed>=MAX_REFILLS)return;
+   if(state.date!==today||state.refillsUsed>=MAX_REFILLS||deepTest)return;
    const available=pool.filter(x=>!state.seen.includes(x.id));
    const next=select(available,CAPACITY,today,'refill-'+state.refillsUsed);
    if(!next.length){display();return;}
