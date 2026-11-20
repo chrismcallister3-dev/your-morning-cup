@@ -83,8 +83,8 @@ try{
  const quote=sections[3].nextElementSibling?.classList.contains('item')?sections[3].nextElementSibling.cloneNode(true):null;
  const end=panel.querySelector('.edition-end')||node('div','edition-end');
  const instruction=node('div','muted');
+ const refillControls=node('div','ymc-refill-controls');
  const refillBtn=node('button','diveBtn','Refill My Cup');
- refillBtn.style.marginTop='13px';
  refillBtn.style.padding='11px 20px';
  refillBtn.type='button';
  const status=node('div','muted');
@@ -130,8 +130,9 @@ try{
      actions.append(same,next,reset);testBanner.append(actions);
    }
    if(!instruction.isConnected)end.append(instruction);
-   if(!refillBtn.isConnected)end.append(refillBtn);
-   if(!status.isConnected)end.append(status);
+   if(!refillControls.isConnected)panel.insertBefore(refillControls,panel.querySelector('.sect'));
+   if(!refillBtn.isConnected)refillControls.append(refillBtn);
+   if(!status.isConnected)refillControls.append(status);
    instruction.textContent=selected.length?'Your cup is empty. For now.':'No new eligible discoveries remain in this pilot catalog.';
    const remaining=MAX_REFILLS-state.refillsUsed;
    const remainingSelection=select(pool.filter(x=>!state.seen.includes(x.id)),1,today,'availability');
