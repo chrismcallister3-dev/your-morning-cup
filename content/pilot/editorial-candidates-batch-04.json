@@ -1,0 +1,274 @@
+{
+  "schemaVersion": "pilot-1",
+  "status": "source-evaluation-not-published",
+  "createdAt": "2026-11-19",
+  "batch": "04",
+  "purpose": "Additional samples for provisional HISTORY and Guinness World Records, plus two new candidate publishers National Park Service and MIT News. No source-level approvals implied.",
+  "records": [
+    {
+      "id": "YMC-P031",
+      "headline": "The mystery of Cahokia's Woodhenge",
+      "category": "History, Culture & Ideas",
+      "topicTags": [
+        "indigenous-history",
+        "archaeology",
+        "astronomy"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "At Cahokia in present-day Illinois, archaeologists identified a circle of tall wooden posts that may have helped observers mark seasonal changes. The discovery connects sophisticated Indigenous engineering with the rhythms of the sun.",
+      "source": {
+        "url": "https://www.history.com/articles/woodhenge-cahokia",
+        "publisher": "HISTORY",
+        "publishedAt": null
+      },
+      "deepDive": null,
+      "sourceReview": "source-research-reviewed-check-final-details-before-publishing",
+      "editorialStatus": "pending-source-qualification-or-individual-approval",
+      "publicationStatus": "hold-for-editorial-and-publication-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P032",
+      "headline": "Why Damascus steel became a legend",
+      "category": "History, Culture & Ideas",
+      "topicTags": [
+        "metallurgy",
+        "technology-history",
+        "craftsmanship"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "evergreen",
+      "longevity": "evergreen",
+      "discoverSummary": "Damascus steel earned a reputation for striking patterns and exceptional blades. Historians and researchers continue to examine how historical manufacturing traditions and modern myths combined to shape its reputation.",
+      "source": {
+        "url": "https://www.history.com/articles/damascus-steel-origins-mystery",
+        "publisher": "HISTORY",
+        "publishedAt": "2026-02-24"
+      },
+      "deepDive": null,
+      "sourceReview": "source-research-reviewed-check-final-details-before-publishing",
+      "editorialStatus": "pending-source-qualification-or-individual-approval",
+      "publicationStatus": "hold-for-editorial-and-publication-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P033",
+      "headline": "What happened to the Minoans?",
+      "category": "History, Culture & Ideas",
+      "topicTags": [
+        "ancient-civilizations",
+        "mediterranean-history",
+        "archaeology"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "evergreen",
+      "longevity": "evergreen",
+      "discoverSummary": "The Minoan civilization built palaces, traded across the Mediterranean and left remarkable art. Its transformation has prompted debate about earthquakes, eruptions, political changes and the limits of archaeological evidence.",
+      "source": {
+        "url": "https://www.history.com/articles/minoan-civilization-rise-fall",
+        "publisher": "HISTORY",
+        "publishedAt": null
+      },
+      "deepDive": null,
+      "sourceReview": "source-research-reviewed-check-final-details-before-publishing",
+      "editorialStatus": "pending-source-qualification-or-individual-approval",
+      "publicationStatus": "hold-for-editorial-and-publication-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P034",
+      "headline": "Ancient cave painting sets a record for early art",
+      "category": "History, Culture & Ideas",
+      "topicTags": [
+        "prehistoric-art",
+        "indonesia",
+        "human-history",
+        "world-records"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "Researchers have dated nonfigurative cave art in Indonesia to at least 67,800 years ago. The record invites readers to consider how early humans expressed ideas and made marks long before written language.",
+      "source": {
+        "url": "https://www.guinnessworldrecords.com/news/2026/5/cave-art-from-at-least-67800-years-ago-sets-new-record-as-oldest-non-figurative-painting",
+        "publisher": "Guinness World Records",
+        "publishedAt": "2026-05-26"
+      },
+      "deepDive": null,
+      "sourceReview": "source-research-reviewed-check-final-details-before-publishing",
+      "editorialStatus": "pending-source-qualification-or-individual-approval",
+      "publicationStatus": "hold-for-editorial-and-publication-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P035",
+      "headline": "A cyclist's record-breaking trip honors his late wife",
+      "category": "Humor & Entertainment",
+      "topicTags": [
+        "human-achievement",
+        "cycling",
+        "fundraising",
+        "world-records"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "At 69, Mark Herbst cycled more than 30,000 kilometers around the globe, setting an age-related record while raising funds for cancer research in memory of his wife. The journey offers far more than a distance milestone.",
+      "source": {
+        "url": "https://www.guinnessworldrecords.com/news/2026/9/69-year-old-bikes-30000-km-around-globe-to-take-record-raises-70k-for-cancer-research",
+        "publisher": "Guinness World Records",
+        "publishedAt": "2026-09-28"
+      },
+      "deepDive": null,
+      "sourceReview": "source-research-reviewed-check-final-details-before-publishing",
+      "editorialStatus": "pending-source-qualification-or-individual-approval",
+      "publicationStatus": "hold-for-editorial-and-publication-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P036",
+      "headline": "A Utah town fills its streets with dinosaurs",
+      "category": "Humor & Entertainment",
+      "topicTags": [
+        "community",
+        "costumes",
+        "light-fare",
+        "world-records"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "Vernal, Utah, turned a town celebration into a prehistoric spectacle when 804 people gathered in dinosaur costumes. The event also marks a community's successful second attempt at a record.",
+      "source": {
+        "url": "https://www.guinnessworldrecords.com/news/2026/10/roar-some-804-people-in-dinosaur-costumes-smash-record-and-reduce-a-town-to-tears",
+        "publisher": "Guinness World Records",
+        "publishedAt": null
+      },
+      "deepDive": null,
+      "sourceReview": "source-research-reviewed-check-final-details-before-publishing",
+      "editorialStatus": "pending-source-qualification-or-individual-approval",
+      "publicationStatus": "hold-for-editorial-and-publication-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P037",
+      "headline": "The record that celebrates becoming a grandfather",
+      "category": "Humor & Entertainment",
+      "topicTags": [
+        "family",
+        "human-interest",
+        "milestones",
+        "world-records"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "A man's recognition as the oldest first-time grandfather adds a family-centered dimension to record breaking. Rather than a stunt, the story is about generations, relationships and an unusually late-life milestone.",
+      "source": {
+        "url": "https://www.guinnessworldrecords.com/news/2026/10/american-man-is-revitalized-after-becoming-the-oldest-first-time-grandfather-at-age-92",
+        "publisher": "Guinness World Records",
+        "publishedAt": "2026-10-20"
+      },
+      "deepDive": null,
+      "sourceReview": "source-research-reviewed-check-final-details-before-publishing",
+      "editorialStatus": "pending-source-qualification-or-individual-approval",
+      "publicationStatus": "hold-for-editorial-and-publication-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P038",
+      "headline": "Dinosaur bones appear during a parking-lot repair",
+      "category": "Science & Technology",
+      "topicTags": [
+        "paleontology",
+        "dinosaurs",
+        "national-parks"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "At Dinosaur National Monument, a construction project paused when workers exposed fossils from a long-necked dinosaur. Paleontologists removed roughly 3,000 pounds of rock and fossil material for study, showing how scientific finds can emerge during ordinary maintenance.",
+      "source": {
+        "url": "https://www.nps.gov/dino/learn/news/parkinglotfossilsexcavated.htm",
+        "publisher": "National Park Service",
+        "publishedAt": "2026-01-16"
+      },
+      "deepDive": null,
+      "sourceReview": "source-research-reviewed-check-final-details-before-publishing",
+      "editorialStatus": "pending-source-qualification-or-individual-approval",
+      "publicationStatus": "hold-for-editorial-and-publication-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P039",
+      "headline": "Ancient objects emerge as Alaska's ice melts",
+      "category": "History, Culture & Ideas",
+      "topicTags": [
+        "indigenous-history",
+        "archaeology",
+        "climate",
+        "national-parks"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "evergreen",
+      "longevity": "evergreen",
+      "discoverSummary": "Melting ice patches in Alaska have revealed remarkably preserved hunting tools and other artifacts, some nearly 2,000 years old. Archaeologists must work quickly because fragile materials can deteriorate once exposed.",
+      "source": {
+        "url": "https://www.nps.gov/articles/ira-ice-patch-archeology.htm",
+        "publisher": "National Park Service",
+        "publishedAt": "2024-10-01"
+      },
+      "deepDive": null,
+      "sourceReview": "source-research-reviewed-check-final-details-before-publishing",
+      "editorialStatus": "pending-source-qualification-or-individual-approval",
+      "publicationStatus": "hold-for-editorial-and-publication-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P040",
+      "headline": "A tiny robot learns to fly with its own onboard brain",
+      "category": "Science & Technology",
+      "topicTags": [
+        "robotics",
+        "engineering",
+        "bioinspiration"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "discoverSummary": "MIT researchers designed a lightweight flying robot that can navigate with onboard sensors and computation rather than relying on an external motion-capture system. A precise landing on a sunflower shows what the miniature machine can do outside its previous laboratory setup.",
+      "source": {
+        "url": "https://news.mit.edu/index.php/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118",
+        "publisher": "MIT News",
+        "publishedAt": "2026-11-18"
+      },
+      "deepDive": null,
+      "sourceReview": "source-research-reviewed-check-final-details-before-publishing",
+      "editorialStatus": "pending-source-qualification-or-individual-approval",
+      "publicationStatus": "hold-for-editorial-and-publication-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    }
+  ]
+}
