@@ -1,0 +1,710 @@
+{
+  "schemaVersion": 2,
+  "editionMode": "on-visit",
+  "generatedAt": "2026-11-19",
+  "catalogStatus": "editorially-approved-pilot; publication-readiness checks remain outstanding",
+  "notice": "Preview/test content only. Do not distribute publicly as production-ready editorial material.",
+  "items": [
+    {
+      "id": "YMC-P001",
+      "title": "The Pompeii wardrobe that stayed closed for nearly 2,000 years",
+      "summary": "A wooden cabinet preserved at Pompeii offered archaeologists a rare look at what people kept in a Roman home. Its contents help tell a smaller, more personal story than the city's famous ruins: the objects and beliefs that accompanied ordinary life.",
+      "category": "History, Culture & Ideas",
+      "topics": [
+        "archaeology",
+        "ancient-rome",
+        "daily-life"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "publishedAt": "2026-11-06",
+      "source": {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/this-wooden-wardrobe-in-pompeii-remained-sealed-for-nearly-2000-years-archaeologists-just-opened-it-for-the-first-time-180989831/"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P002",
+      "title": "A flute from ancient Troy brings the past into earshot",
+      "summary": "Archaeologists excavating Troy uncovered a bone flute in a layer dating to the eighth century BCE. The discovery adds something unexpected to the picture of ancient Troy: a surviving musical instrument, not just walls and weapons.",
+      "category": "History, Culture & Ideas",
+      "topics": [
+        "archaeology",
+        "music",
+        "ancient-history"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "publishedAt": "2026-10-30",
+      "source": {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/crafted-from-bone-this-2800-year-old-flute-unearthed-in-troy-may-have-been-played-around-the-time-that-homer-composed-the-iliad-and-the-odyssey-180989792/"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P003",
+      "title": "A teenager finds an ancient Greek coin near Berlin",
+      "summary": "A 13-year-old's discovery in a field outside Berlin led researchers to a bronze coin minted in ancient Troy. Scholars believe it is the first ancient Greek artifact unearthed in Berlin, although how it traveled there remains a mystery.",
+      "category": "History, Culture & Ideas",
+      "topics": [
+        "archaeology",
+        "ancient-greece",
+        "unexpected-finds"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "publishedAt": "2026-04-28",
+      "source": {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/a-13-year-old-boy-found-this-bronze-coin-in-a-field-it-turned-out-to-be-the-first-ancient-greek-artifact-discovered-in-berlin-180988627/"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P004",
+      "title": "Two stars merged—and astronomers reconstructed the story",
+      "summary": "In the Andromeda galaxy, a smaller star spiraled into a larger companion. By combining observations from the James Webb Space Telescope and other instruments, researchers reconstructed the merger and what happened afterward.",
+      "category": "Science & Technology",
+      "topics": [
+        "astronomy",
+        "webb-telescope",
+        "stellar-evolution"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "publishedAt": "2026-11-18",
+      "source": {
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P005",
+      "title": "The deep-sea golden orb finally has an identity",
+      "summary": "When ocean explorers spotted a golden sphere almost two miles below the surface near Alaska in 2023, they couldn't identify it immediately. A later investigation found it was the remnants of a giant deep-sea anemone—an answer that took years to uncover.",
+      "category": "Science & Technology",
+      "topics": [
+        "marine-biology",
+        "ocean-exploration",
+        "scientific-mysteries"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "publishedAt": null,
+      "source": {
+        "publisher": "NOAA",
+        "url": "https://www.noaa.gov/news/scientists-reveal-identity-of-mysterious-golden-orb-collected-during-noaa-expedition"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P006",
+      "title": "Why astronomers call these galaxies 'platypuses'",
+      "summary": "A group of distant galaxies combines features astronomers don't usually see together. The research team compared the odd combination to a platypus—an unexpected mix that may offer clues to early galaxy formation.",
+      "category": "Science & Technology",
+      "topics": [
+        "astronomy",
+        "galaxies",
+        "webb-telescope"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "publishedAt": "2026-01-06",
+      "source": {
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/missions/webb/scientists-identify-astronomys-platypus-with-nasas-webb-telescope/"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P007",
+      "title": "Golf's rulebook has been evolving since 1744",
+      "summary": "Golf's early written rules date to 1744, but the game hasn't stood still. Equipment, playing conditions, and the way competitions are organized have all shaped revisions over centuries.",
+      "category": "Sports & Current Events",
+      "topics": [
+        "golf",
+        "sports-history",
+        "rules"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "evergreen",
+      "longevity": "evergreen",
+      "publishedAt": null,
+      "source": {
+        "publisher": "USGA",
+        "url": "https://www.usga.org/rules-hub/rules-modernization/text/a-brief-history-1744-to-present.html"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P008",
+      "title": "The early baseball game remembered for much more than its score",
+      "summary": "A recorded 1846 game in Hoboken ended with a lopsided 23–1 score, but its lasting significance is in the organized rules and game structure that helped shape modern baseball.",
+      "category": "Sports & Current Events",
+      "topics": [
+        "baseball",
+        "sports-history",
+        "american-history"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "evergreen",
+      "longevity": "evergreen",
+      "publishedAt": "2026-06-12",
+      "source": {
+        "publisher": "MLB",
+        "url": "https://www.mlb.com/news/the-first-baseball-game-ever-recorded"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P009",
+      "title": "A sloth discovers the joys of a water hose",
+      "summary": "The Smithsonian's National Zoo introduced Olive, a two-toed sloth, with footage of her enjoying water-hose enrichment. It's a brief, playful glimpse of animal care—and a lighter discovery for a morning edition.",
+      "category": "Humor & Entertainment",
+      "topics": [
+        "animal-videos",
+        "lighthearted",
+        "zoo"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "time-sensitive",
+      "publishedAt": "2026-09-11",
+      "source": {
+        "publisher": "Smithsonian National Zoo",
+        "url": "https://nationalzoo.si.edu/animals/news/see-these-5-new-animals-your-next-visit-smithsonians-national-zoo"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P010",
+      "title": "An 1899 silent comedy still offers a mischievous moment",
+      "summary": "Long before social-media clips, short films were experimenting with visual mischief. The Library of Congress catalog preserves an early Edison-era film titled Little Mischief, offering readers a playful detour into the earliest years of screen comedy.",
+      "category": "Humor & Entertainment",
+      "topics": [
+        "silent-film",
+        "comedy",
+        "film-history"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "publishedAt": null,
+      "source": {
+        "publisher": "Library of Congress",
+        "url": "https://www.loc.gov/item/00694128/"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P011",
+      "title": "The philosopher whose remains are still helping science",
+      "summary": "Nearly two centuries after philosopher Jeremy Bentham donated his body for scientific study, researchers have scanned his preserved head to investigate its history and condition. The unusual story connects a philosophical commitment to evidence with modern museum conservation.",
+      "category": "History, Culture & Ideas",
+      "topics": [
+        "philosophy",
+        "medical-history",
+        "museums"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "publishedAt": "2026-11-19",
+      "source": {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/he-was-one-of-the-first-people-to-donate-his-body-to-science-nearly-200-years-later-researchers-are-still-learning-from-it-180989901/"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P012",
+      "title": "A centuries-old book of disasters goes up for auction",
+      "summary": "The sixteenth-century Book of Miracles depicts floods, comets, plagues and other extraordinary events in a striking collection of paintings. Its approaching auction offers a window into how people once interpreted a frightening and unpredictable world.",
+      "category": "History, Culture & Ideas",
+      "topics": [
+        "medieval-history",
+        "art",
+        "manuscripts"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "publishedAt": "2026-11-18",
+      "source": {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/medieval-readers-saw-floods-plagues-and-comets-as-omens-of-doom-so-they-created-a-mysterious-manuscript-of-apocalyptic-artworks-to-peruse-at-will-180989891/"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P013",
+      "title": "Space dust holds clues to ancient ice beyond Neptune",
+      "summary": "A NASA team analyzed tiny dust grains collected in Earth's upper atmosphere and found chemical clues pointing to ancient ice in the Kuiper Belt. The research may help explain how material moved through the young solar system.",
+      "category": "Science & Technology",
+      "topics": [
+        "space",
+        "planetary-science",
+        "kuiper-belt"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "publishedAt": "2026-11-18",
+      "source": {
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/blogs/science-news/2026/11/18/nasa-scientists-find-clues-to-ancient-ice-beyond-neptune/"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P014",
+      "title": "California forests mapped at the scale of a single tree",
+      "summary": "Using airborne lidar measurements, NASA researchers produced three-dimensional maps of California with roughly one-meter resolution. The detailed terrain and vegetation information could support better wildfire-risk assessment and resource management.",
+      "category": "Science & Technology",
+      "topics": [
+        "wildfires",
+        "mapping",
+        "earth-science"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "publishedAt": "2026-11-18",
+      "source": {
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/blogs/science-news/2026/11/18/california-wildfire-risk-3d-maps/"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P015",
+      "title": "A satellite built for six years prepares to end a 27-year mission",
+      "summary": "NASA's Terra satellite is scheduled to stop collecting scientific data in December after 27 years observing Earth's land, oceans and atmosphere. Its long-running measurements helped researchers study changes in vegetation, ice, wildfires and air quality.",
+      "category": "Science & Technology",
+      "topics": [
+        "earth-observation",
+        "satellites",
+        "climate"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "publishedAt": "2026-11-17",
+      "source": {
+        "publisher": "NASA",
+        "url": "https://science.nasa.gov/blogs/science-news/2026/11/17/nasas-terra-mission-to-end/"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P016",
+      "title": "Teenage defenseman scores a milestone NHL hat trick",
+      "summary": "New York Islanders defenseman Matthew Schaefer scored the first hat trick of his NHL career in a 5–1 win over Columbus. The performance was a rare milestone for a teenage defenseman and helped extend the Islanders' winning streak.",
+      "category": "Sports & Current Events",
+      "topics": [
+        "hockey",
+        "nhl",
+        "islanders"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "expires-quickly",
+      "publishedAt": "2026-11-18",
+      "source": {
+        "publisher": "NHL",
+        "url": "https://www.nhl.com/news/takeaways-islanders-cbj-nov-17-2026"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P017",
+      "title": "Winter Classic jerseys celebrate mountains and hockey history",
+      "summary": "The NHL revealed the uniforms for Colorado and Utah's upcoming Winter Classic, with mountain imagery, vintage-inspired details and local hockey history shaping both designs. The matchup is set to be the league's first outdoor regular-season game in Utah.",
+      "category": "Sports & Current Events",
+      "topics": [
+        "hockey",
+        "nhl",
+        "sports-design"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "publishedAt": "2026-11-18",
+      "source": {
+        "publisher": "NHL",
+        "url": "https://www.nhl.com/news/nhl-reveals-winter-classic-uniforms-colorado-avalanche-utah-mammoth"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P018",
+      "title": "The next Baseball Hall of Fame ballot is set",
+      "summary": "Twenty-seven players appear on the 2027 baseball writers' Hall of Fame ballot, including first-time candidate Buster Posey. The ballot begins a new round of debate over how great careers are remembered and evaluated.",
+      "category": "Sports & Current Events",
+      "topics": [
+        "baseball",
+        "mlb",
+        "hall-of-fame"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "expires-quickly",
+      "publishedAt": "2026-11-16",
+      "source": {
+        "publisher": "MLB",
+        "url": "https://www.mlb.com/news/baseball-hall-of-fame-ballot-2027"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P019",
+      "title": "A baby rhino takes its first wobbly steps",
+      "summary": "At England's Chester Zoo, a greater one-horned rhinoceros calf is learning to explore the world beside its mother. Early video captures the youngster's tentative steps while its birth also offers an opportunity to learn about conservation of the vulnerable species.",
+      "category": "Humor & Entertainment",
+      "topics": [
+        "animal-stories",
+        "zoo",
+        "nature-video"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "time-sensitive",
+      "publishedAt": "2026-11-19",
+      "source": {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/smart-news/see-the-rare-baby-rhinoceros-born-in-englands-chester-zoo-an-adorable-addition-to-its-species-numbers-180989902/"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P020",
+      "title": "New York City's unofficial shopkeepers: bodega cats",
+      "summary": "From counter-top naps to watchful positions by the register, cats have become familiar personalities in many New York bodegas. A recent feature explores why these unofficial store residents have such a devoted following.",
+      "category": "Humor & Entertainment",
+      "topics": [
+        "cats",
+        "city-life",
+        "human-interest"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "publishedAt": "2026-11-18",
+      "source": {
+        "publisher": "Smithsonian Magazine",
+        "url": "https://www.smithsonianmag.com/travel/theyre-not-on-the-payroll-but-bodega-cats-are-some-of-new-york-citys-most-beloved-employees-180989882/"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P021",
+      "title": "Could a shipwreck exist when the ship is gone?",
+      "summary": "An archaeological find off Türkiye may point to a shipwreck from as early as 2700 BCE, yet no ship hull survived. The mystery raises a fascinating question: how can researchers identify a wreck from what remains around it?",
+      "category": "History, Culture & Ideas",
+      "topics": [
+        "archaeology",
+        "seafaring",
+        "ancient-history"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "publishedAt": "2026-11-16",
+      "source": {
+        "publisher": "HISTORY",
+        "url": "https://www.history.com/articles/oldest-shipwrecks"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P022",
+      "title": "The Rosetta Stone's long road to decipherment",
+      "summary": "A stone found in 1799 carried the same decree in three scripts, but translating its Egyptian hieroglyphs took decades and competing scholars. The story shows how a chance discovery became a key to understanding an ancient civilization.",
+      "category": "History, Culture & Ideas",
+      "topics": [
+        "ancient-egypt",
+        "languages",
+        "historical-discoveries"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "evergreen",
+      "longevity": "evergreen",
+      "publishedAt": "2026-07-14",
+      "source": {
+        "publisher": "HISTORY",
+        "url": "https://www.history.com/articles/rosetta-stone-languages-discovery"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P023",
+      "title": "The triple-star system astronomers weren't searching for",
+      "summary": "Astronomers seeking planets near a red dwarf instead uncovered a rare system with two white dwarfs just 28 light-years away. Its unlikely configuration is challenging ideas about how closely orbiting stars survive one another's evolution.",
+      "category": "Science & Technology",
+      "topics": [
+        "astronomy",
+        "stars",
+        "unexpected-discoveries"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "publishedAt": "2026-11-19",
+      "source": {
+        "publisher": "Phys.org",
+        "url": "https://phys.org/news/2026-11-astronomers-remarkable-triple-star-years.html"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P024",
+      "title": "A hidden giant planet emerges from old telescope images",
+      "summary": "A new technique for reducing starlight glare revealed a giant exoplanet in existing James Webb Space Telescope data. The finding illustrates how better analysis can unlock discoveries from observations scientists already possess.",
+      "category": "Science & Technology",
+      "topics": [
+        "exoplanets",
+        "webb-telescope",
+        "image-processing"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "publishedAt": "2026-11-04",
+      "source": {
+        "publisher": "Phys.org",
+        "url": "https://phys.org/news/2026-11-giant-planet-emerges-year-jwst.html"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P025",
+      "title": "A 42-year search finds evidence of an extraordinarily rare decay",
+      "summary": "Researchers studying collisions at the LHC found initial evidence for a rare particle decay long predicted by physics. The result is promising but has not reached the stronger statistical standard physicists use to claim a discovery.",
+      "category": "Science & Technology",
+      "topics": [
+        "particle-physics",
+        "research",
+        "scientific-method"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "publishedAt": "2026-11-03",
+      "source": {
+        "publisher": "Phys.org",
+        "url": "https://phys.org/news/2026-11-physicists-closer-zeptoverse-year-particle.html"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P026",
+      "title": "Four individual gold medals make Youth Olympic history",
+      "summary": "Japanese swimmer Mana Ishikawa won four individual gold medals at the Dakar Youth Olympic Games, a first in the event's history. Her run of victories offers a compelling young-athlete milestone beyond the usual professional sports headlines.",
+      "category": "Sports & Current Events",
+      "topics": [
+        "swimming",
+        "youth-olympics",
+        "athlete-milestones"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "expires-quickly",
+      "publishedAt": "2026-11-05",
+      "source": {
+        "publisher": "IOC Newsroom",
+        "url": "https://newsroom.olympics.com/record/3902"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P028",
+      "title": "A Statue of Liberty portrait in under a minute",
+      "summary": "A speed painter created a Statue of Liberty portrait in less than 60 seconds as part of Guinness World Records Day. It's an entertaining demonstration of skill that makes for a quick, surprising discovery.",
+      "category": "Humor & Entertainment",
+      "topics": [
+        "art",
+        "unusual-talents",
+        "record-breaking"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "publishedAt": "2026-11-19",
+      "source": {
+        "publisher": "Guinness World Records",
+        "url": "https://www.guinnessworldrecords.com/news/2026/11/speed-painter-celebrates-gwr-day-by-making-statue-of-liberty-portrait-in-under-1-minute"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P029",
+      "title": "A giant squash mosaic honors a natural-history storyteller",
+      "summary": "A farm assembled a huge portrait of David Attenborough and a frog from thousands of pumpkins and squashes. The playful display combines community creativity, seasonal harvests and an unexpected form of art.",
+      "category": "Humor & Entertainment",
+      "topics": [
+        "art",
+        "farming",
+        "unusual-stories"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "publishedAt": "2026-09-23",
+      "source": {
+        "publisher": "Guinness World Records",
+        "url": "https://www.guinnessworldrecords.com/news/2026/9/farm-recreates-david-attenborough-and-a-froggy-friend-out-of-11000-squashes"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P030",
+      "title": "A reading event brings thousands together across countries",
+      "summary": "A record-setting online reading campaign brought together more than 153,000 participants across 92 countries. The collaborative achievement offers a feel-good discovery about how shared curiosity and a few minutes with a book can unite people.",
+      "category": "Humor & Entertainment",
+      "topics": [
+        "reading",
+        "community",
+        "positive-stories"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "publishedAt": "2026-11-10",
+      "source": {
+        "publisher": "Guinness World Records",
+        "url": "https://www.guinnessworldrecords.com/news/2026/11/fashionistas-drummers-and-candy-crushers-octobers-people-power-roundup"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P031",
+      "title": "The mystery of Cahokia's Woodhenge",
+      "summary": "At Cahokia in present-day Illinois, archaeologists identified a circle of tall wooden posts that may have helped observers mark seasonal changes. The discovery connects sophisticated Indigenous engineering with the rhythms of the sun.",
+      "category": "History, Culture & Ideas",
+      "topics": [
+        "indigenous-history",
+        "archaeology",
+        "astronomy"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "publishedAt": null,
+      "source": {
+        "publisher": "HISTORY",
+        "url": "https://www.history.com/articles/woodhenge-cahokia"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P032",
+      "title": "Why Damascus steel became a legend",
+      "summary": "Damascus steel earned a reputation for striking patterns and exceptional blades. Historians and researchers continue to examine how historical manufacturing traditions and modern myths combined to shape its reputation.",
+      "category": "History, Culture & Ideas",
+      "topics": [
+        "metallurgy",
+        "technology-history",
+        "craftsmanship"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "evergreen",
+      "longevity": "evergreen",
+      "publishedAt": "2026-02-24",
+      "source": {
+        "publisher": "HISTORY",
+        "url": "https://www.history.com/articles/damascus-steel-origins-mystery"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P033",
+      "title": "What happened to the Minoans?",
+      "summary": "The Minoan civilization built palaces, traded across the Mediterranean and left remarkable art. Its transformation has prompted debate about earthquakes, eruptions, political changes and the limits of archaeological evidence.",
+      "category": "History, Culture & Ideas",
+      "topics": [
+        "ancient-civilizations",
+        "mediterranean-history",
+        "archaeology"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "evergreen",
+      "longevity": "evergreen",
+      "publishedAt": null,
+      "source": {
+        "publisher": "HISTORY",
+        "url": "https://www.history.com/articles/minoan-civilization-rise-fall"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P038",
+      "title": "Dinosaur bones appear during a parking-lot repair",
+      "summary": "At Dinosaur National Monument, a construction project paused when workers exposed fossils from a long-necked dinosaur. Paleontologists removed roughly 3,000 pounds of rock and fossil material for study, showing how scientific finds can emerge during ordinary maintenance.",
+      "category": "Science & Technology",
+      "topics": [
+        "paleontology",
+        "dinosaurs",
+        "national-parks"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "publishedAt": "2026-01-16",
+      "source": {
+        "publisher": "National Park Service",
+        "url": "https://www.nps.gov/dino/learn/news/parkinglotfossilsexcavated.htm"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P039",
+      "title": "Ancient objects emerge as Alaska's ice melts",
+      "summary": "Melting ice patches in Alaska have revealed remarkably preserved hunting tools and other artifacts, some nearly 2,000 years old. Archaeologists must work quickly because fragile materials can deteriorate once exposed.",
+      "category": "History, Culture & Ideas",
+      "topics": [
+        "indigenous-history",
+        "archaeology",
+        "climate",
+        "national-parks"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "evergreen",
+      "longevity": "evergreen",
+      "publishedAt": "2024-10-01",
+      "source": {
+        "publisher": "National Park Service",
+        "url": "https://www.nps.gov/articles/ira-ice-patch-archeology.htm"
+      },
+      "deepDive": null
+    },
+    {
+      "id": "YMC-P040",
+      "title": "A tiny robot learns to fly with its own onboard brain",
+      "summary": "MIT researchers designed a lightweight flying robot that can navigate with onboard sensors and computation rather than relying on an external motion-capture system. A precise landing on a sunflower shows what the miniature machine can do outside its previous laboratory setup.",
+      "category": "Science & Technology",
+      "topics": [
+        "robotics",
+        "engineering",
+        "bioinspiration"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "publishedAt": "2026-11-18",
+      "source": {
+        "publisher": "MIT News",
+        "url": "https://news.mit.edu/index.php/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118"
+      },
+      "deepDive": null
+    }
+  ]
+}
