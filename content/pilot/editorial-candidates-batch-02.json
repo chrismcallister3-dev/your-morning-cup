@@ -1,6 +1,6 @@
 {
   "schemaVersion": "pilot-1",
-  "status": "editorial-candidates-not-approved",
+  "status": "partially-editorially-approved-not-published",
   "createdAt": "2026-11-19",
   "batch": "02",
   "purpose": "Ten new editorial candidates to broaden Current content coverage. Not eligible for publication before owner approval and publication readiness checks.",
@@ -156,11 +156,12 @@
       },
       "deepDive": null,
       "sourceReview": "league-report-reviewed",
-      "editorialStatus": "candidate-needs-human-review",
-      "publicationStatus": "hold-for-approval-and-source-validation",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19"
     },
     {
       "id": "YMC-P017",
@@ -182,11 +183,12 @@
       },
       "deepDive": null,
       "sourceReview": "league-report-reviewed",
-      "editorialStatus": "candidate-needs-human-review",
-      "publicationStatus": "hold-for-approval-and-source-validation",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19"
     },
     {
       "id": "YMC-P018",
@@ -208,11 +210,12 @@
       },
       "deepDive": null,
       "sourceReview": "league-report-reviewed",
-      "editorialStatus": "candidate-needs-human-review",
-      "publicationStatus": "hold-for-approval-and-source-validation",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19"
     },
     {
       "id": "YMC-P019",
@@ -266,5 +269,15 @@
       "lastReviewed": "2026-11-19",
       "publishCount": 0
     }
-  ]
+  ],
+  "editorialApproval": {
+    "approvedIds": [
+      "YMC-P016",
+      "YMC-P017",
+      "YMC-P018"
+    ],
+    "approvedAt": "2026-11-19",
+    "scope": "sports articles only",
+    "publicationAuthorization": false
+  }
 }
