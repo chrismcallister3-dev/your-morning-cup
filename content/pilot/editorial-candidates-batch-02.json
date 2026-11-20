@@ -1,6 +1,6 @@
 {
   "schemaVersion": "pilot-1",
-  "status": "partially-editorially-approved-not-published",
+  "status": "editorially-approved-not-published",
   "createdAt": "2026-11-19",
   "batch": "02",
   "purpose": "Ten new editorial candidates to broaden Current content coverage. Not eligible for publication before owner approval and publication readiness checks.",
@@ -26,11 +26,13 @@
       },
       "deepDive": null,
       "sourceReview": "source-article-reviewed",
-      "editorialStatus": "candidate-needs-human-review",
-      "publicationStatus": "hold-for-approval-and-source-validation",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialRationale": "Approved under source-level editorial acceptance; source/claim and publication checks remain separate."
     },
     {
       "id": "YMC-P012",
@@ -52,11 +54,13 @@
       },
       "deepDive": null,
       "sourceReview": "source-article-reviewed",
-      "editorialStatus": "candidate-needs-human-review",
-      "publicationStatus": "hold-for-approval-and-source-validation",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialRationale": "Approved under source-level editorial acceptance; source/claim and publication checks remain separate."
     },
     {
       "id": "YMC-P013",
@@ -78,11 +82,13 @@
       },
       "deepDive": null,
       "sourceReview": "primary-source-reviewed",
-      "editorialStatus": "candidate-needs-human-review",
-      "publicationStatus": "hold-for-approval-and-source-validation",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialRationale": "Approved under source-level editorial acceptance; source/claim and publication checks remain separate."
     },
     {
       "id": "YMC-P014",
@@ -104,11 +110,13 @@
       },
       "deepDive": null,
       "sourceReview": "primary-source-reviewed",
-      "editorialStatus": "candidate-needs-human-review",
-      "publicationStatus": "hold-for-approval-and-source-validation",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialRationale": "Approved under source-level editorial acceptance; source/claim and publication checks remain separate."
     },
     {
       "id": "YMC-P015",
@@ -130,11 +138,13 @@
       },
       "deepDive": null,
       "sourceReview": "primary-source-reviewed",
-      "editorialStatus": "candidate-needs-human-review",
-      "publicationStatus": "hold-for-approval-and-source-validation",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialRationale": "Approved under source-level editorial acceptance; source/claim and publication checks remain separate."
     },
     {
       "id": "YMC-P016",
@@ -161,7 +171,8 @@
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
       "publishCount": 0,
-      "editorialApprovedAt": "2026-11-19"
+      "editorialApprovedAt": "2026-11-19",
+      "editorialRationale": "Approved under source-level editorial acceptance; source/claim and publication checks remain separate."
     },
     {
       "id": "YMC-P017",
@@ -188,7 +199,8 @@
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
       "publishCount": 0,
-      "editorialApprovedAt": "2026-11-19"
+      "editorialApprovedAt": "2026-11-19",
+      "editorialRationale": "Approved under source-level editorial acceptance; source/claim and publication checks remain separate."
     },
     {
       "id": "YMC-P018",
@@ -215,7 +227,8 @@
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
       "publishCount": 0,
-      "editorialApprovedAt": "2026-11-19"
+      "editorialApprovedAt": "2026-11-19",
+      "editorialRationale": "Approved under source-level editorial acceptance; source/claim and publication checks remain separate."
     },
     {
       "id": "YMC-P019",
@@ -237,11 +250,13 @@
       },
       "deepDive": null,
       "sourceReview": "source-article-reviewed",
-      "editorialStatus": "candidate-needs-human-review",
-      "publicationStatus": "hold-for-approval-and-source-validation",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialRationale": "Approved under source-level editorial acceptance; source/claim and publication checks remain separate."
     },
     {
       "id": "YMC-P020",
@@ -275,13 +290,19 @@
   ],
   "editorialApproval": {
     "approvedIds": [
+      "YMC-P011",
+      "YMC-P012",
+      "YMC-P013",
+      "YMC-P014",
+      "YMC-P015",
       "YMC-P016",
       "YMC-P017",
       "YMC-P018",
+      "YMC-P019",
       "YMC-P020"
     ],
     "approvedAt": "2026-11-19",
-    "scope": "Three sports articles and bodega cat story; other individual entries remain pending",
+    "scope": "All 10 Batch 2 discoveries accepted at source-level editorial quality baseline; no article-by-article additional review required unless substantive exception",
     "publicationAuthorization": false
   }
 }
