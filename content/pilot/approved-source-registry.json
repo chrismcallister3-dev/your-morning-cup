@@ -28,38 +28,49 @@
       "sourceId": "history",
       "name": "HISTORY",
       "domain": "history.com",
-      "editorialApproval": "pending-owner-source-level-approval",
-      "reviewPath": "pending-source-qualification",
+      "editorialApproval": "approved",
+      "reviewPath": "source-approved-articles-editorially-approved",
       "rightsStatus": "not-evaluated",
-      "scope": "First introduced in Batch 3. Approval at publisher level will approve associated discoveries editorially."
+      "scope": "First introduced in Batch 3. Approval at publisher level will approve associated discoveries editorially.; editorial approval carries to associated articles except explicitly flagged exceptions",
+      "approvedAt": "2026-11-19"
     },
     {
       "sourceId": "phys-org",
       "name": "Phys.org",
       "domain": "phys.org",
-      "editorialApproval": "pending-owner-source-level-approval",
-      "reviewPath": "pending-source-qualification",
+      "editorialApproval": "approved",
+      "reviewPath": "source-approved-articles-editorially-approved",
       "rightsStatus": "not-evaluated",
-      "scope": "First introduced in Batch 3. Approval at publisher level will approve associated discoveries editorially."
+      "scope": "First introduced in Batch 3. Approval at publisher level will approve associated discoveries editorially.; editorial approval carries to associated articles except explicitly flagged exceptions",
+      "approvedAt": "2026-11-19"
     },
     {
       "sourceId": "ioc-newsroom",
       "name": "IOC Newsroom",
       "domain": "newsroom.olympics.com",
-      "editorialApproval": "pending-owner-source-level-approval",
-      "reviewPath": "pending-source-qualification",
+      "editorialApproval": "approved",
+      "reviewPath": "source-approved-articles-editorially-approved",
       "rightsStatus": "not-evaluated",
-      "scope": "First introduced in Batch 3. Approval at publisher level will approve associated discoveries editorially."
+      "scope": "First introduced in Batch 3. Approval at publisher level will approve associated discoveries editorially.; editorial approval carries to associated articles except explicitly flagged exceptions",
+      "approvedAt": "2026-11-19",
+      "exceptions": [
+        {
+          "discoveryId": "YMC-P027",
+          "status": "not-approved",
+          "reason": "Video did not display; requires source/media check before editorial approval"
+        }
+      ]
     },
     {
       "sourceId": "guinness-world-records",
       "name": "Guinness World Records",
       "domain": "guinnessworldrecords.com",
-      "editorialApproval": "pending-owner-source-level-approval",
-      "reviewPath": "pending-source-qualification",
+      "editorialApproval": "approved",
+      "reviewPath": "source-approved-articles-editorially-approved",
       "rightsStatus": "not-evaluated",
-      "scope": "First introduced in Batch 3. Approval at publisher level will approve associated discoveries editorially."
+      "scope": "First introduced in Batch 3. Approval at publisher level will approve associated discoveries editorially.; editorial approval carries to associated articles except explicitly flagged exceptions",
+      "approvedAt": "2026-11-19"
     }
   ],
-  "approvalRule": "Owner approval of a publisher at source level constitutes editorial approval of articles from that publisher, including articles in existing pilot batches. Individual editorial approval is not separately required. Source-specific exceptions may be flagged; source validity, claim accuracy, freshness, rights, and publication readiness are separate safeguards, not additional discretionary editorial approval."
+  "approvalRule": "Publisher approval automatically grants article-level editorial approval except explicitly noted article exceptions, such as broken or inaccessible media. Publication readiness, rights, factual checks and freshness remain independent."
 }
