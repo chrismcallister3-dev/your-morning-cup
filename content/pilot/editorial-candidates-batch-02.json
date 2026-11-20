@@ -1,0 +1,270 @@
+{
+  "schemaVersion": "pilot-1",
+  "status": "editorial-candidates-not-approved",
+  "createdAt": "2026-11-19",
+  "batch": "02",
+  "purpose": "Ten new editorial candidates to broaden Current content coverage. Not eligible for publication before owner approval and publication readiness checks.",
+  "editorialBalanceNote": "This batch intentionally leans Current to counterbalance Batch 1. Freshness and editorial contribution are distinct; relevance and quality remain mandatory.",
+  "records": [
+    {
+      "id": "YMC-P011",
+      "headline": "The philosopher whose remains are still helping science",
+      "category": "History, Culture & Ideas",
+      "topicTags": [
+        "philosophy",
+        "medical-history",
+        "museums"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "Nearly two centuries after philosopher Jeremy Bentham donated his body for scientific study, researchers have scanned his preserved head to investigate its history and condition. The unusual story connects a philosophical commitment to evidence with modern museum conservation.",
+      "source": {
+        "url": "https://www.smithsonianmag.com/smart-news/he-was-one-of-the-first-people-to-donate-his-body-to-science-nearly-200-years-later-researchers-are-still-learning-from-it-180989901/",
+        "publisher": "Smithsonian Magazine",
+        "publishedAt": "2026-11-19"
+      },
+      "deepDive": null,
+      "sourceReview": "source-article-reviewed",
+      "editorialStatus": "candidate-needs-human-review",
+      "publicationStatus": "hold-for-approval-and-source-validation",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P012",
+      "headline": "A centuries-old book of disasters goes up for auction",
+      "category": "History, Culture & Ideas",
+      "topicTags": [
+        "medieval-history",
+        "art",
+        "manuscripts"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "The sixteenth-century Book of Miracles depicts floods, comets, plagues and other extraordinary events in a striking collection of paintings. Its approaching auction offers a window into how people once interpreted a frightening and unpredictable world.",
+      "source": {
+        "url": "https://www.smithsonianmag.com/smart-news/medieval-readers-saw-floods-plagues-and-comets-as-omens-of-doom-so-they-created-a-mysterious-manuscript-of-apocalyptic-artworks-to-peruse-at-will-180989891/",
+        "publisher": "Smithsonian Magazine",
+        "publishedAt": "2026-11-18"
+      },
+      "deepDive": null,
+      "sourceReview": "source-article-reviewed",
+      "editorialStatus": "candidate-needs-human-review",
+      "publicationStatus": "hold-for-approval-and-source-validation",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P013",
+      "headline": "Space dust holds clues to ancient ice beyond Neptune",
+      "category": "Science & Technology",
+      "topicTags": [
+        "space",
+        "planetary-science",
+        "kuiper-belt"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "discoverSummary": "A NASA team analyzed tiny dust grains collected in Earth's upper atmosphere and found chemical clues pointing to ancient ice in the Kuiper Belt. The research may help explain how material moved through the young solar system.",
+      "source": {
+        "url": "https://science.nasa.gov/blogs/science-news/2026/11/18/nasa-scientists-find-clues-to-ancient-ice-beyond-neptune/",
+        "publisher": "NASA",
+        "publishedAt": "2026-11-18"
+      },
+      "deepDive": null,
+      "sourceReview": "primary-source-reviewed",
+      "editorialStatus": "candidate-needs-human-review",
+      "publicationStatus": "hold-for-approval-and-source-validation",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P014",
+      "headline": "California forests mapped at the scale of a single tree",
+      "category": "Science & Technology",
+      "topicTags": [
+        "wildfires",
+        "mapping",
+        "earth-science"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "discoverSummary": "Using airborne lidar measurements, NASA researchers produced three-dimensional maps of California with roughly one-meter resolution. The detailed terrain and vegetation information could support better wildfire-risk assessment and resource management.",
+      "source": {
+        "url": "https://science.nasa.gov/blogs/science-news/2026/11/18/california-wildfire-risk-3d-maps/",
+        "publisher": "NASA",
+        "publishedAt": "2026-11-18"
+      },
+      "deepDive": null,
+      "sourceReview": "primary-source-reviewed",
+      "editorialStatus": "candidate-needs-human-review",
+      "publicationStatus": "hold-for-approval-and-source-validation",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P015",
+      "headline": "A satellite built for six years prepares to end a 27-year mission",
+      "category": "Science & Technology",
+      "topicTags": [
+        "earth-observation",
+        "satellites",
+        "climate"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "discoverSummary": "NASA's Terra satellite is scheduled to stop collecting scientific data in December after 27 years observing Earth's land, oceans and atmosphere. Its long-running measurements helped researchers study changes in vegetation, ice, wildfires and air quality.",
+      "source": {
+        "url": "https://science.nasa.gov/blogs/science-news/2026/11/17/nasas-terra-mission-to-end/",
+        "publisher": "NASA",
+        "publishedAt": "2026-11-17"
+      },
+      "deepDive": null,
+      "sourceReview": "primary-source-reviewed",
+      "editorialStatus": "candidate-needs-human-review",
+      "publicationStatus": "hold-for-approval-and-source-validation",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P016",
+      "headline": "Teenage defenseman scores a milestone NHL hat trick",
+      "category": "Sports & Current Events",
+      "topicTags": [
+        "hockey",
+        "nhl",
+        "islanders"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "expires-quickly",
+      "discoverSummary": "New York Islanders defenseman Matthew Schaefer scored the first hat trick of his NHL career in a 5–1 win over Columbus. The performance was a rare milestone for a teenage defenseman and helped extend the Islanders' winning streak.",
+      "source": {
+        "url": "https://www.nhl.com/news/takeaways-islanders-cbj-nov-17-2026",
+        "publisher": "NHL",
+        "publishedAt": "2026-11-18"
+      },
+      "deepDive": null,
+      "sourceReview": "league-report-reviewed",
+      "editorialStatus": "candidate-needs-human-review",
+      "publicationStatus": "hold-for-approval-and-source-validation",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P017",
+      "headline": "Winter Classic jerseys celebrate mountains and hockey history",
+      "category": "Sports & Current Events",
+      "topicTags": [
+        "hockey",
+        "nhl",
+        "sports-design"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "discoverSummary": "The NHL revealed the uniforms for Colorado and Utah's upcoming Winter Classic, with mountain imagery, vintage-inspired details and local hockey history shaping both designs. The matchup is set to be the league's first outdoor regular-season game in Utah.",
+      "source": {
+        "url": "https://www.nhl.com/news/nhl-reveals-winter-classic-uniforms-colorado-avalanche-utah-mammoth",
+        "publisher": "NHL",
+        "publishedAt": "2026-11-18"
+      },
+      "deepDive": null,
+      "sourceReview": "league-report-reviewed",
+      "editorialStatus": "candidate-needs-human-review",
+      "publicationStatus": "hold-for-approval-and-source-validation",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P018",
+      "headline": "The next Baseball Hall of Fame ballot is set",
+      "category": "Sports & Current Events",
+      "topicTags": [
+        "baseball",
+        "mlb",
+        "hall-of-fame"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "expires-quickly",
+      "discoverSummary": "Twenty-seven players appear on the 2027 baseball writers' Hall of Fame ballot, including first-time candidate Buster Posey. The ballot begins a new round of debate over how great careers are remembered and evaluated.",
+      "source": {
+        "url": "https://www.mlb.com/news/baseball-hall-of-fame-ballot-2027",
+        "publisher": "MLB",
+        "publishedAt": "2026-11-16"
+      },
+      "deepDive": null,
+      "sourceReview": "league-report-reviewed",
+      "editorialStatus": "candidate-needs-human-review",
+      "publicationStatus": "hold-for-approval-and-source-validation",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P019",
+      "headline": "A baby rhino takes its first wobbly steps",
+      "category": "Humor & Entertainment",
+      "topicTags": [
+        "animal-stories",
+        "zoo",
+        "nature-video"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "time-sensitive",
+      "discoverSummary": "At England's Chester Zoo, a greater one-horned rhinoceros calf is learning to explore the world beside its mother. Early video captures the youngster's tentative steps while its birth also offers an opportunity to learn about conservation of the vulnerable species.",
+      "source": {
+        "url": "https://www.smithsonianmag.com/smart-news/see-the-rare-baby-rhinoceros-born-in-englands-chester-zoo-an-adorable-addition-to-its-species-numbers-180989902/",
+        "publisher": "Smithsonian Magazine",
+        "publishedAt": "2026-11-19"
+      },
+      "deepDive": null,
+      "sourceReview": "source-article-reviewed",
+      "editorialStatus": "candidate-needs-human-review",
+      "publicationStatus": "hold-for-approval-and-source-validation",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P020",
+      "headline": "New York City's unofficial shopkeepers: bodega cats",
+      "category": "Humor & Entertainment",
+      "topicTags": [
+        "cats",
+        "city-life",
+        "human-interest"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "From counter-top naps to watchful positions by the register, cats have become familiar personalities in many New York bodegas. A recent feature explores why these unofficial store residents have such a devoted following.",
+      "source": {
+        "url": "https://www.smithsonianmag.com/travel/theyre-not-on-the-payroll-but-bodega-cats-are-some-of-new-york-citys-most-beloved-employees-180989882/",
+        "publisher": "Smithsonian Magazine",
+        "publishedAt": "2026-11-18"
+      },
+      "deepDive": null,
+      "sourceReview": "source-listed-but-direct-article-not-accessible-needs-manual-review",
+      "editorialStatus": "candidate-needs-human-review",
+      "publicationStatus": "hold-for-approval-and-source-validation",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    }
+  ]
+}
