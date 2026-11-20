@@ -28,15 +28,15 @@
       "sourceId": "history",
       "name": "HISTORY",
       "domain": "history.com",
-      "editorialApproval": "provisional-additional-samples-required",
-      "reviewPath": "article-level-approval-until-source-qualified",
+      "editorialApproval": "approved",
+      "reviewPath": "source-approved-articles-editorially-approved",
       "rightsStatus": "not-evaluated",
-      "scope": "Two Batch 3 articles approved individually; review additional HISTORY articles before granting publisher-wide editorial approval.",
-      "qualifyingReviewNeeded": "Several additional articles across representative history topics",
+      "scope": "Approved at publisher level; all HISTORY articles in pilot approved editorially, subject to publication readiness.",
       "existingApprovedDiscoveries": [
         "YMC-P021",
         "YMC-P022"
-      ]
+      ],
+      "approvedAt": "2026-11-19"
     },
     {
       "sourceId": "phys-org",
