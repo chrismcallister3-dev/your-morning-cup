@@ -1,6 +1,6 @@
 {
   "schemaVersion": "pilot-1",
-  "status": "partially-approved-one-explicit-exception-not-published",
+  "status": "nine-approved-one-dropped-not-published",
   "createdAt": "2026-11-19",
   "batch": "03",
   "editorialApprovalPolicy": "Publisher/source approval also approves articles from that source editorially. Publication readiness remains separate (factual, metadata, recency and content rights checks).",
@@ -196,12 +196,14 @@
       },
       "deepDive": null,
       "sourceReview": "source-page-reviewed",
-      "editorialStatus": "not-approved-display-unverified",
-      "publicationStatus": "blocked-pending-display-and-editorial-review",
+      "editorialStatus": "dropped-by-owner",
+      "publicationStatus": "permanently-excluded",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
       "publishCount": 0,
-      "editorialDecisionNote": "Owner did not approve because IOC video did not display; hold for playback/source verification and further editorial decision."
+      "editorialDecisionNote": "Owner explicitly dropped this item: video does not display and further technical troubleshooting is not warranted. Do not represent in later curation.",
+      "reviewQueue": "none",
+      "decisionDate": "2026-11-19"
     },
     {
       "id": "YMC-P028",
@@ -301,10 +303,11 @@
       "YMC-P029",
       "YMC-P030"
     ],
-    "notApprovedIds": [
+    "notApprovedIds": [],
+    "policy": "Source-level approval covers associated articles except explicit owner exclusions; dropped items are not publishable or recirculated.",
+    "publicationAuthorization": false,
+    "droppedIds": [
       "YMC-P027"
-    ],
-    "policy": "Owner source-level approval covers publisher articles by default, subject to explicit article-level exceptions.",
-    "publicationAuthorization": false
+    ]
   }
 }
