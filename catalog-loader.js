@@ -2,8 +2,10 @@
    Uses only editorially approved catalog excerpts; no AI calls, logins, or server storage. */
 (async()=>{
 'use strict';
-const deepTest=new URLSearchParams(location.search).get('ymc_deep_test')==='1';
-const STORAGE=deepTest?'ymc.preview.deep-test.v1':'ymc.preview.edition.v1';
+const params=new URLSearchParams(location.search);
+const deepTest=params.get('ymc_deep_test')==='1';
+const cycleTest=params.get('ymc_cycle_test')==='1'&&!deepTest;
+const STORAGE=deepTest?'ymc.preview.deep-test.v1':cycleTest?'ymc.preview.cycle-test.v1':'ymc.preview.edition.v1';
 const CAPACITY=3;
 const MAX_REFILLS=2;
 const $=s=>document.querySelector(s);
@@ -15,9 +17,10 @@ const sections=[...panel.querySelectorAll('.sect')];
 if(sections.length!==4)return;
 const node=(tag,cls,txt)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(txt!==undefined)el.textContent=txt;return el;};
 const localDate=()=>{const d=new Date();return [d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-');};
-const params=new URLSearchParams(location.search);
-const testDate=params.get('ymc_test_date');
-const today=(testDate&&/^\d{4}-\d{2}-\d{2}$/.test(testDate)&&!isNaN(new Date(testDate+'T12:00:00').valueOf()))?testDate:localDate();
+const testDate=cycleTest?params.get('ymc_test_date'):null;
+const validTestDate=testDate&&/^\d{4}-\d{2}-\d{2}$/.test(testDate)&&!isNaN(new Date(testDate+'T12:00:00').valueOf());
+const today=validTestDate?testDate:localDate();
+const tomorrow=()=>{const d=new Date(today+'T12:00:00Z');d.setUTCDate(d.getUTCDate()+1);return d.toISOString().slice(0,10);};
 const read=()=>{try{return JSON.parse(localStorage.getItem(STORAGE)||'null');}catch{return null;}};
 const store=s=>{try{localStorage.setItem(STORAGE,JSON.stringify(s));}catch{console.warn('Morning Cup: browser storage unavailable; persistence disabled.');}};
 const preferences=()=>{try{const p=JSON.parse(localStorage.getItem('ymc.reader.preferences')||'{}');return {topics:Array.isArray(p.topics)?p.topics:[],exclusions:Array.isArray(p.exclusions)?p.exclusions:[]};}catch{return {topics:[],exclusions:[]};}};
@@ -62,6 +65,7 @@ try{
  const index=new Map(catalog.items.map(i=>[i.id,i]));
  const pool=catalog.items.filter(eligible);
  const cached=read();
+ const testBanner=cycleTest?node('div','note',''):null;
  let state=(cached&&Array.isArray(cached.seen)&&Array.isArray(cached.ids)&&Number.isInteger(cached.refillsUsed))?cached:null;
  if(!state||state.date!==today){
    const seen=state?.seen?.filter(id=>index.has(id))||[];
@@ -113,14 +117,27 @@ try{
    const foot=$('.foot');if(foot)foot.textContent='Your Morning Cup · Thoughtfully curated · No endless scrolling';
    const count=$('#ymc-discover .panehead .muted');if(count)count.textContent=selected.length+' discoveries';
    if(!end.isConnected)panel.append(end);
+   if(cycleTest&&testBanner&&!testBanner.isConnected)panel.insertBefore(testBanner,panel.querySelector('.sect'));
+   if(cycleTest&&testBanner){
+     testBanner.replaceChildren();
+     testBanner.append(node('strong','', 'Daily-cycle pilot · '+today));
+     const info=node('p','','Current IDs: '+(state.ids.join(', ')||'none')+' · Seen: '+state.seen.length+' · Refills used: '+state.refillsUsed+'/2');
+     testBanner.append(info);
+     const actions=node('div','linkline');
+     const same=node('a','','Reopen this date');same.href='?ymc_cycle_test=1&ymc_test_date='+today;
+     const next=node('a','','Simulate next date');next.href='?ymc_cycle_test=1&ymc_test_date='+tomorrow();
+     const reset=node('button','back','Reset test history');reset.type='button';reset.style.margin='0';reset.addEventListener('click',()=>{try{localStorage.removeItem(STORAGE);}catch{}location.href='?ymc_cycle_test=1&ymc_test_date='+today;});
+     actions.append(same,next,reset);testBanner.append(actions);
+   }
    if(!instruction.isConnected)end.append(instruction);
    if(!refillBtn.isConnected)end.append(refillBtn);
    if(!status.isConnected)end.append(status);
    instruction.textContent=selected.length?'Your cup is empty. For now.':'No new eligible discoveries remain in this pilot catalog.';
    const remaining=MAX_REFILLS-state.refillsUsed;
-   refillBtn.disabled=deepTest||remaining===0||!pool.some(x=>!state.seen.includes(x.id));
+   const remainingSelection=select(pool.filter(x=>!state.seen.includes(x.id)),1,today,'availability');
+   refillBtn.disabled=deepTest||remaining===0||remainingSelection.length===0;
    refillBtn.style.opacity=refillBtn.disabled?'.4':'1';
-   status.textContent=deepTest?'Deep Dive navigation test · Refills disabled in this dedicated test':remaining+' of '+MAX_REFILLS+' Refills remaining today'+(refillBtn.disabled&&remaining>0?' · Catalog currently exhausted':'');
+   status.textContent=deepTest?'Deep Dive navigation test · Refills disabled in this dedicated test':remaining+' of '+MAX_REFILLS+' Refills remaining today'+(refillBtn.disabled&&remaining>0?' · No further eligible discoveries':'');
  }
  refillBtn.addEventListener('click',()=>{
    if(state.date!==today||state.refillsUsed>=MAX_REFILLS||deepTest)return;
@@ -136,7 +153,7 @@ try{
  article.replaceChildren(diveTitle,node('p','intro','This edition contains original Morning Cup summaries and links to their sources. Full Deep Dives will be added after editorial preparation and verification.'));
  display();
  panel.scrollTop=state.scrollTop||0;
- // Pilot hook for visual QA. To test a different day use ?ymc_test_date=YYYY-MM-DD.
+ // Isolated cycle tests: ?ymc_cycle_test=1, then use the visible date controls.
  window.YMCPilot={date:today,getState:()=>({...state}),catalogCount:catalog.items.length,eligibleCount:pool.length};
 }catch(e){console.warn('Morning Cup: saved sample edition retained because pilot catalog failed.',e);}
 })();
