@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "pilot-1",
+  "status": "editorial-source-registry",
+  "updatedAt": "2026-11-19",
+  "notes": "Owner approval pertains to publisher editorial standards, not a blanket guarantee of any individual article's relevance, claims, freshness, copyright permissions, or publication readiness.",
+  "sources": [
+    {
+      "sourceId": "smithsonian-magazine",
+      "name": "Smithsonian Magazine",
+      "domain": "smithsonianmag.com",
+      "editorialApproval": "approved",
+      "approvedAt": "2026-11-19",
+      "reviewPath": "streamlined-article-level-review",
+      "rightsStatus": "not-evaluated",
+      "scope": "General editorial credibility and quality baseline; article exceptions still reviewed"
+    },
+    {
+      "sourceId": "nasa",
+      "name": "NASA",
+      "domain": "nasa.gov",
+      "editorialApproval": "approved",
+      "approvedAt": "2026-11-19",
+      "reviewPath": "streamlined-article-level-review",
+      "rightsStatus": "not-evaluated",
+      "scope": "General editorial credibility for NASA research and mission reporting; individual claim and relevance checks remain"
+    }
+  ]
+}
