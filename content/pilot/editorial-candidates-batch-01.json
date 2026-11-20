@@ -1,0 +1,259 @@
+{
+  "schemaVersion": "pilot-1",
+  "status": "editorial-candidates-not-approved",
+  "createdAt": "2026-11-19",
+  "purpose": "Separate, non-published editorial candidate collection. Do not load into edition assembly until reviewed.",
+  "editorialBalanceNote": "Editorial contribution (evergreen/current/fresh-discovery) is independent of source longevity; quality and relevance override quota.",
+  "records": [
+    {
+      "id": "YMC-P001",
+      "headline": "The Pompeii wardrobe that stayed closed for nearly 2,000 years",
+      "category": "History, Culture & Ideas",
+      "topicTags": [
+        "archaeology",
+        "ancient-rome",
+        "daily-life"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "A wooden cabinet preserved at Pompeii offered archaeologists a rare look at what people kept in a Roman home. Its contents help tell a smaller, more personal story than the city's famous ruins: the objects and beliefs that accompanied ordinary life.",
+      "source": {
+        "url": "https://www.smithsonianmag.com/smart-news/this-wooden-wardrobe-in-pompeii-remained-sealed-for-nearly-2000-years-archaeologists-just-opened-it-for-the-first-time-180989831/",
+        "publisher": "Smithsonian Magazine",
+        "publishedAt": "2026-11-06"
+      },
+      "deepDive": null,
+      "sourceReview": "source-located-and-reviewed-in-research",
+      "editorialStatus": "candidate-needs-human-review",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P002",
+      "headline": "A flute from ancient Troy brings the past into earshot",
+      "category": "History, Culture & Ideas",
+      "topicTags": [
+        "archaeology",
+        "music",
+        "ancient-history"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "Archaeologists excavating Troy uncovered a bone flute in a layer dating to the eighth century BCE. The discovery adds something unexpected to the picture of ancient Troy: a surviving musical instrument, not just walls and weapons.",
+      "source": {
+        "url": "https://www.smithsonianmag.com/smart-news/crafted-from-bone-this-2800-year-old-flute-unearthed-in-troy-may-have-been-played-around-the-time-that-homer-composed-the-iliad-and-the-odyssey-180989792/",
+        "publisher": "Smithsonian Magazine",
+        "publishedAt": "2026-10-30"
+      },
+      "deepDive": null,
+      "sourceReview": "source-located-and-reviewed-in-research",
+      "editorialStatus": "candidate-needs-human-review",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P003",
+      "headline": "A teenager finds an ancient Greek coin near Berlin",
+      "category": "History, Culture & Ideas",
+      "topicTags": [
+        "archaeology",
+        "ancient-greece",
+        "unexpected-finds"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "A 13-year-old's discovery in a field outside Berlin led researchers to a bronze coin minted in ancient Troy. Scholars believe it is the first ancient Greek artifact unearthed in Berlin, although how it traveled there remains a mystery.",
+      "source": {
+        "url": "https://www.smithsonianmag.com/smart-news/a-13-year-old-boy-found-this-bronze-coin-in-a-field-it-turned-out-to-be-the-first-ancient-greek-artifact-discovered-in-berlin-180988627/",
+        "publisher": "Smithsonian Magazine",
+        "publishedAt": "2026-04-28"
+      },
+      "deepDive": null,
+      "sourceReview": "source-located-and-reviewed-in-research",
+      "editorialStatus": "candidate-needs-human-review",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P004",
+      "headline": "Two stars merged—and astronomers reconstructed the story",
+      "category": "Science & Technology",
+      "topicTags": [
+        "astronomy",
+        "webb-telescope",
+        "stellar-evolution"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "discoverSummary": "In the Andromeda galaxy, a smaller star spiraled into a larger companion. By combining observations from the James Webb Space Telescope and other instruments, researchers reconstructed the merger and what happened afterward.",
+      "source": {
+        "url": "https://science.nasa.gov/missions/webb/nasa-data-clinches-first-of-its-kind-stellar-merger/",
+        "publisher": "NASA",
+        "publishedAt": "2026-11-18"
+      },
+      "deepDive": null,
+      "sourceReview": "source-located-and-reviewed-in-research",
+      "editorialStatus": "candidate-needs-human-review",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P005",
+      "headline": "The deep-sea golden orb finally has an identity",
+      "category": "Science & Technology",
+      "topicTags": [
+        "marine-biology",
+        "ocean-exploration",
+        "scientific-mysteries"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "When ocean explorers spotted a golden sphere almost two miles below the surface near Alaska in 2023, they couldn't identify it immediately. A later investigation found it was the remnants of a giant deep-sea anemone—an answer that took years to uncover.",
+      "source": {
+        "url": "https://www.noaa.gov/news/scientists-reveal-identity-of-mysterious-golden-orb-collected-during-noaa-expedition",
+        "publisher": "NOAA",
+        "publishedAt": "2026-04-01"
+      },
+      "deepDive": null,
+      "sourceReview": "source-located-and-reviewed-in-research",
+      "editorialStatus": "candidate-needs-human-review",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P006",
+      "headline": "Why astronomers call these galaxies 'platypuses'",
+      "category": "Science & Technology",
+      "topicTags": [
+        "astronomy",
+        "galaxies",
+        "webb-telescope"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "A group of distant galaxies combines features astronomers don't usually see together. The research team compared the odd combination to a platypus—an unexpected mix that may offer clues to early galaxy formation.",
+      "source": {
+        "url": "https://science.nasa.gov/missions/webb/scientists-identify-astronomys-platypus-with-nasas-webb-telescope/",
+        "publisher": "NASA",
+        "publishedAt": "2026-01-06"
+      },
+      "deepDive": null,
+      "sourceReview": "source-located-and-reviewed-in-research",
+      "editorialStatus": "candidate-needs-human-review",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P007",
+      "headline": "Golf's rulebook has been evolving since 1744",
+      "category": "Sports & Current Events",
+      "topicTags": [
+        "golf",
+        "sports-history",
+        "rules"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "evergreen",
+      "longevity": "evergreen",
+      "discoverSummary": "Golf's early written rules date to 1744, but the game hasn't stood still. Equipment, playing conditions, and the way competitions are organized have all shaped revisions over centuries.",
+      "source": {
+        "url": "https://www.usga.org/rules-hub/rules-modernization/text/a-brief-history-1744-to-present.html",
+        "publisher": "USGA",
+        "publishedAt": null
+      },
+      "deepDive": null,
+      "sourceReview": "source-located-and-reviewed-in-research",
+      "editorialStatus": "candidate-needs-human-review",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P008",
+      "headline": "The early baseball game remembered for much more than its score",
+      "category": "Sports & Current Events",
+      "topicTags": [
+        "baseball",
+        "sports-history",
+        "american-history"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "evergreen",
+      "longevity": "evergreen",
+      "discoverSummary": "A recorded 1846 game in Hoboken ended with a lopsided 23–1 score, but its lasting significance is in the organized rules and game structure that helped shape modern baseball.",
+      "source": {
+        "url": "https://www.mlb.com/news/the-first-baseball-game-ever-recorded",
+        "publisher": "MLB",
+        "publishedAt": "2026-06-12"
+      },
+      "deepDive": null,
+      "sourceReview": "source-located-and-reviewed-in-research",
+      "editorialStatus": "candidate-needs-human-review",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P009",
+      "headline": "A sloth discovers the joys of a water hose",
+      "category": "Humor & Entertainment",
+      "topicTags": [
+        "animal-videos",
+        "lighthearted",
+        "zoo"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "time-sensitive",
+      "discoverSummary": "The Smithsonian's National Zoo introduced Olive, a two-toed sloth, with footage of her enjoying water-hose enrichment. It's a brief, playful glimpse of animal care—and a lighter discovery for a morning edition.",
+      "source": {
+        "url": "https://nationalzoo.si.edu/animals/news/see-these-5-new-animals-your-next-visit-smithsonians-national-zoo",
+        "publisher": "Smithsonian National Zoo",
+        "publishedAt": "2026-09-11"
+      },
+      "deepDive": null,
+      "sourceReview": "source-located-and-reviewed-in-research",
+      "editorialStatus": "candidate-needs-human-review",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P010",
+      "headline": "An 1899 silent comedy still offers a mischievous moment",
+      "category": "Humor & Entertainment",
+      "topicTags": [
+        "silent-film",
+        "comedy",
+        "film-history"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "Long before social-media clips, short films were experimenting with visual mischief. The Library of Congress catalog preserves an early Edison-era film titled Little Mischief, offering readers a playful detour into the earliest years of screen comedy.",
+      "source": {
+        "url": "https://www.loc.gov/item/00694128/",
+        "publisher": "Library of Congress",
+        "publishedAt": null
+      },
+      "deepDive": null,
+      "sourceReview": "source-located-and-reviewed-in-research",
+      "editorialStatus": "candidate-needs-human-review",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    }
+  ]
+}
