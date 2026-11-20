@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "status": "controlled-preview-test-not-publication-ready",
+  "items": [
+    {
+      "id": "YMC-P038",
+      "title": "A fossil discovery beneath an ordinary parking lot",
+      "eyebrow": "Paleontology · National parks · Unexpected discoveries",
+      "intro": "What happens when routine roadwork uncovers evidence that has been hidden for millions of years? At Dinosaur National Monument, the answer was to stop construction and give paleontologists the time and space to investigate.",
+      "sections": [
+        {
+          "heading": "An unexpected return to an old quarry",
+          "paragraphs": [
+            "In September 2025, removing asphalt near the Quarry Exhibit Hall exposed dinosaur-bearing sandstone. Park staff recognized fossils from a large, long-necked dinosaur, most likely Diplodocus. This was the first excavation in that particular area since 1924.",
+            "The surprise was not that the monument contained dinosaur fossils—it is famous for them—but that work on modern visitor infrastructure revealed another opportunity to study the same ancient landscape."
+          ]
+        },
+        {
+          "heading": "What the excavation accomplished",
+          "paragraphs": [
+            "Construction paused while park specialists, volunteers, conservation crews, and contractors helped recover roughly 3,000 pounds of fossils and surrounding rock over several weeks. The material was moved for preparation and research.",
+            "The Quarry Exhibit Hall already preserves a remarkable concentration of bones embedded in stone. This new discovery illustrates that even well-studied places can hold overlooked evidence."
+          ]
+        },
+        {
+          "heading": "The idea worth keeping",
+          "paragraphs": [
+            "Scientific discovery is not limited to purpose-built expeditions. It also depends on recognizing significant evidence when routine work exposes it—and making room for careful study before the moment passes."
+          ]
+        }
+      ],
+      "sourceLabel": "National Park Service — New Dinosaur Fossils Excavated at Dinosaur National Monument",
+      "sourceUrl": "https://www.nps.gov/dino/learn/news/parkinglotfossilsexcavated.htm"
+    },
+    {
+      "id": "YMC-P039",
+      "title": "When melting ice reveals—and endangers—the past",
+      "eyebrow": "Archaeology · Alaska · Cultural heritage",
+      "intro": "In Alaska's mountains, shrinking ice patches are revealing traces of human activity that might have vanished in almost any other setting. Their appearance creates a narrow opportunity: record and protect the discoveries before exposure destroys them.",
+      "sections": [
+        {
+          "heading": "Why ice can preserve the unexpected",
+          "paragraphs": [
+            "National Park Service archaeologists found a roughly 650-year-old birch-bark basket in Wrangell–St. Elias National Park and Preserve. Although damaged, its stitching holes were still visible. Organic materials like bark and fiber usually decay, but persistent freezing can preserve them for centuries.",
+            "Unlike moving glaciers, relatively stationary ice patches can keep artifacts near where people left them. That location helps researchers understand how earlier communities traveled and hunted."
+          ]
+        },
+        {
+          "heading": "Small objects, wider histories",
+          "paragraphs": [
+            "In Lake Clark National Park and Preserve, investigators identified a barbed antler projectile point about 150 years old, along with other hunting-related finds dating back nearly 2,000 years. These objects can contribute evidence of long-standing practices and changing use of mountain environments.",
+            "Researchers also seek guidance and partnerships with Tribal communities and other knowledge holders whose histories are connected to these places."
+          ]
+        },
+        {
+          "heading": "A race with two outcomes",
+          "paragraphs": [
+            "Warming may make hidden artifacts visible, but once an object is exposed to sunlight, rain, animals, and wind, deterioration can begin quickly. That makes ice-patch archaeology both a discovery story and a preservation challenge."
+          ]
+        }
+      ],
+      "sourceLabel": "National Park Service — Racing the elements to find artifacts in melting ice patches",
+      "sourceUrl": "https://www.nps.gov/articles/ira-ice-patch-archeology.htm"
+    },
+    {
+      "id": "YMC-P040",
+      "title": "A flying robot carries more of its intelligence onboard",
+      "eyebrow": "Robotics · Engineering · Bioinspiration",
+      "intro": "A tiny flying machine can be remarkably agile in a laboratory. But getting it to navigate outside a camera-equipped test space requires a different kind of achievement: carrying the sensors and computation needed to keep itself on course.",
+      "sections": [
+        {
+          "heading": "Why weight changes everything",
+          "paragraphs": [
+            "MIT engineers built a flapping-wing microrobot capable of carrying a 244-milligram electronics package. Its sensors help estimate position, speed, attitude, and height, while compact onboard computation processes that information during flight.",
+            "The team adjusted the design of the artificial muscles driving its wings to increase available lift without compromising the robot's motion. That work helped create the payload capacity necessary for the electronics."
+          ]
+        },
+        {
+          "heading": "An important demonstration—with limits",
+          "paragraphs": [
+            "The robot navigated without relying on an external motion-capture system, maneuvered around plants, and landed on a sunflower during a demonstration. This moves the design toward applications such as monitoring crops or assisting with pollination.",
+            "But this is not yet a completely independent outdoor flying robot. It still uses an offboard power supply, and researchers are working toward onboard cameras, obstacle avoidance, and batteries."
+          ]
+        },
+        {
+          "heading": "The idea worth keeping",
+          "paragraphs": [
+            "Progress in robotics often comes from solving several small engineering constraints at once. Here, more lift, lighter electronics, and efficient sensing brought an insect-scale robot closer to operating beyond the laboratory."
+          ]
+        }
+      ],
+      "sourceLabel": "MIT News — This featherweight, flying robot carries its own sensors and computers",
+      "sourceUrl": "https://news.mit.edu/2026/featherweight-flying-robot-carries-its-own-sensors-and-computers-1118"
+    }
+  ]
+}
