@@ -2,7 +2,7 @@
   "schemaVersion": "pilot-1",
   "status": "editorial-source-registry",
   "updatedAt": "2026-11-19",
-  "notes": "Owner approval pertains to publisher editorial standards, not a blanket guarantee of any individual article's relevance, claims, freshness, copyright permissions, or publication readiness.",
+  "notes": "Source-level approval carries through to article-level editorial approval. Unapproved sources and their articles remain pending source qualification. Article-specific publication readiness still applies.",
   "sources": [
     {
       "sourceId": "smithsonian-magazine",
@@ -10,9 +10,9 @@
       "domain": "smithsonianmag.com",
       "editorialApproval": "approved",
       "approvedAt": "2026-11-19",
-      "reviewPath": "streamlined-article-level-review",
+      "reviewPath": "source-approved-articles-editorially-approved",
       "rightsStatus": "not-evaluated",
-      "scope": "General editorial credibility and quality baseline; article exceptions still reviewed"
+      "scope": "General editorial credibility and quality baseline; article exceptions still reviewed; automatic article-level editorial acceptance upon source approval"
     },
     {
       "sourceId": "nasa",
@@ -20,9 +20,46 @@
       "domain": "nasa.gov",
       "editorialApproval": "approved",
       "approvedAt": "2026-11-19",
-      "reviewPath": "streamlined-article-level-review",
+      "reviewPath": "source-approved-articles-editorially-approved",
       "rightsStatus": "not-evaluated",
-      "scope": "General editorial credibility for NASA research and mission reporting; individual claim and relevance checks remain"
+      "scope": "General editorial credibility for NASA research and mission reporting; individual claim and relevance checks remain; automatic article-level editorial acceptance upon source approval"
+    },
+    {
+      "sourceId": "history",
+      "name": "HISTORY",
+      "domain": "history.com",
+      "editorialApproval": "pending-owner-source-level-approval",
+      "reviewPath": "pending-source-qualification",
+      "rightsStatus": "not-evaluated",
+      "scope": "First introduced in Batch 3. Approval at publisher level will approve associated discoveries editorially."
+    },
+    {
+      "sourceId": "phys-org",
+      "name": "Phys.org",
+      "domain": "phys.org",
+      "editorialApproval": "pending-owner-source-level-approval",
+      "reviewPath": "pending-source-qualification",
+      "rightsStatus": "not-evaluated",
+      "scope": "First introduced in Batch 3. Approval at publisher level will approve associated discoveries editorially."
+    },
+    {
+      "sourceId": "ioc-newsroom",
+      "name": "IOC Newsroom",
+      "domain": "newsroom.olympics.com",
+      "editorialApproval": "pending-owner-source-level-approval",
+      "reviewPath": "pending-source-qualification",
+      "rightsStatus": "not-evaluated",
+      "scope": "First introduced in Batch 3. Approval at publisher level will approve associated discoveries editorially."
+    },
+    {
+      "sourceId": "guinness-world-records",
+      "name": "Guinness World Records",
+      "domain": "guinnessworldrecords.com",
+      "editorialApproval": "pending-owner-source-level-approval",
+      "reviewPath": "pending-source-qualification",
+      "rightsStatus": "not-evaluated",
+      "scope": "First introduced in Batch 3. Approval at publisher level will approve associated discoveries editorially."
     }
-  ]
+  ],
+  "approvalRule": "Owner approval of a publisher at source level constitutes editorial approval of articles from that publisher, including articles in existing pilot batches. Individual editorial approval is not separately required. Source-specific exceptions may be flagged; source validity, claim accuracy, freshness, rights, and publication readiness are separate safeguards, not additional discretionary editorial approval."
 }
