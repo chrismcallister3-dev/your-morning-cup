@@ -1,0 +1,270 @@
+{
+  "schemaVersion": "pilot-1",
+  "status": "source-qualification-pending-not-published",
+  "createdAt": "2026-11-19",
+  "batch": "03",
+  "editorialApprovalPolicy": "Publisher/source approval also approves articles from that source editorially. Publication readiness remains separate (factual, metadata, recency and content rights checks).",
+  "purpose": "New-source expansion pilot. All four publishers are not yet source-approved by the owner; their articles remain pending source approval.",
+  "records": [
+    {
+      "id": "YMC-P021",
+      "headline": "Could a shipwreck exist when the ship is gone?",
+      "category": "History, Culture & Ideas",
+      "topicTags": [
+        "archaeology",
+        "seafaring",
+        "ancient-history"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "An archaeological find off Türkiye may point to a shipwreck from as early as 2700 BCE, yet no ship hull survived. The mystery raises a fascinating question: how can researchers identify a wreck from what remains around it?",
+      "source": {
+        "url": "https://www.history.com/articles/oldest-shipwrecks",
+        "publisher": "HISTORY",
+        "publishedAt": "2026-11-16"
+      },
+      "deepDive": null,
+      "sourceReview": "source-page-reviewed",
+      "editorialStatus": "pending-source-level-approval",
+      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P022",
+      "headline": "The Rosetta Stone's long road to decipherment",
+      "category": "History, Culture & Ideas",
+      "topicTags": [
+        "ancient-egypt",
+        "languages",
+        "historical-discoveries"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "evergreen",
+      "longevity": "evergreen",
+      "discoverSummary": "A stone found in 1799 carried the same decree in three scripts, but translating its Egyptian hieroglyphs took decades and competing scholars. The story shows how a chance discovery became a key to understanding an ancient civilization.",
+      "source": {
+        "url": "https://www.history.com/articles/rosetta-stone-languages-discovery",
+        "publisher": "HISTORY",
+        "publishedAt": "2026-07-14"
+      },
+      "deepDive": null,
+      "sourceReview": "source-page-reviewed",
+      "editorialStatus": "pending-source-level-approval",
+      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P023",
+      "headline": "The triple-star system astronomers weren't searching for",
+      "category": "Science & Technology",
+      "topicTags": [
+        "astronomy",
+        "stars",
+        "unexpected-discoveries"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "discoverSummary": "Astronomers seeking planets near a red dwarf instead uncovered a rare system with two white dwarfs just 28 light-years away. Its unlikely configuration is challenging ideas about how closely orbiting stars survive one another's evolution.",
+      "source": {
+        "url": "https://phys.org/news/2026-11-astronomers-remarkable-triple-star-years.html",
+        "publisher": "Phys.org",
+        "publishedAt": "2026-11-19"
+      },
+      "deepDive": null,
+      "sourceReview": "source-page-reviewed",
+      "editorialStatus": "pending-source-level-approval",
+      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P024",
+      "headline": "A hidden giant planet emerges from old telescope images",
+      "category": "Science & Technology",
+      "topicTags": [
+        "exoplanets",
+        "webb-telescope",
+        "image-processing"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "discoverSummary": "A new technique for reducing starlight glare revealed a giant exoplanet in existing James Webb Space Telescope data. The finding illustrates how better analysis can unlock discoveries from observations scientists already possess.",
+      "source": {
+        "url": "https://phys.org/news/2026-11-giant-planet-emerges-year-jwst.html",
+        "publisher": "Phys.org",
+        "publishedAt": "2026-11-04"
+      },
+      "deepDive": null,
+      "sourceReview": "source-page-reviewed",
+      "editorialStatus": "pending-source-level-approval",
+      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P025",
+      "headline": "A 42-year search finds evidence of an extraordinarily rare decay",
+      "category": "Science & Technology",
+      "topicTags": [
+        "particle-physics",
+        "research",
+        "scientific-method"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "discoverSummary": "Researchers studying collisions at the LHC found initial evidence for a rare particle decay long predicted by physics. The result is promising but has not reached the stronger statistical standard physicists use to claim a discovery.",
+      "source": {
+        "url": "https://phys.org/news/2026-11-physicists-closer-zeptoverse-year-particle.html",
+        "publisher": "Phys.org",
+        "publishedAt": "2026-11-03"
+      },
+      "deepDive": null,
+      "sourceReview": "source-page-reviewed",
+      "editorialStatus": "pending-source-level-approval",
+      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P026",
+      "headline": "Four individual gold medals make Youth Olympic history",
+      "category": "Sports & Current Events",
+      "topicTags": [
+        "swimming",
+        "youth-olympics",
+        "athlete-milestones"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "expires-quickly",
+      "discoverSummary": "Japanese swimmer Mana Ishikawa won four individual gold medals at the Dakar Youth Olympic Games, a first in the event's history. Her run of victories offers a compelling young-athlete milestone beyond the usual professional sports headlines.",
+      "source": {
+        "url": "https://newsroom.olympics.com/record/3902",
+        "publisher": "IOC Newsroom",
+        "publishedAt": "2026-11-05"
+      },
+      "deepDive": null,
+      "sourceReview": "source-page-reviewed",
+      "editorialStatus": "pending-source-level-approval",
+      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P027",
+      "headline": "Wushu makes a medal-winning Youth Olympic debut",
+      "category": "Sports & Current Events",
+      "topicTags": [
+        "martial-arts",
+        "youth-olympics",
+        "sports-history"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "current",
+      "longevity": "time-sensitive",
+      "discoverSummary": "Wushu awarded its first Youth Olympic medals at Dakar 2026, expanding the spotlight on a martial art previously featured in Olympic settings as an exhibition event. Four golds marked the competition's debut.",
+      "source": {
+        "url": "https://newsroom.olympics.com/record/3896/media_id/7758",
+        "publisher": "IOC Newsroom",
+        "publishedAt": "2026-11-03"
+      },
+      "deepDive": null,
+      "sourceReview": "source-page-reviewed",
+      "editorialStatus": "pending-source-level-approval",
+      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P028",
+      "headline": "A Statue of Liberty portrait in under a minute",
+      "category": "Humor & Entertainment",
+      "topicTags": [
+        "art",
+        "unusual-talents",
+        "record-breaking"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "A speed painter created a Statue of Liberty portrait in less than 60 seconds as part of Guinness World Records Day. It's an entertaining demonstration of skill that makes for a quick, surprising discovery.",
+      "source": {
+        "url": "https://www.guinnessworldrecords.com/news/2026/11/speed-painter-celebrates-gwr-day-by-making-statue-of-liberty-portrait-in-under-1-minute",
+        "publisher": "Guinness World Records",
+        "publishedAt": "2026-11-19"
+      },
+      "deepDive": null,
+      "sourceReview": "source-page-reviewed",
+      "editorialStatus": "pending-source-level-approval",
+      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P029",
+      "headline": "A giant squash mosaic honors a natural-history storyteller",
+      "category": "Humor & Entertainment",
+      "topicTags": [
+        "art",
+        "farming",
+        "unusual-stories"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "A farm assembled a huge portrait of David Attenborough and a frog from thousands of pumpkins and squashes. The playful display combines community creativity, seasonal harvests and an unexpected form of art.",
+      "source": {
+        "url": "https://www.guinnessworldrecords.com/news/2026/9/farm-recreates-david-attenborough-and-a-froggy-friend-out-of-11000-squashes",
+        "publisher": "Guinness World Records",
+        "publishedAt": "2026-09-23"
+      },
+      "deepDive": null,
+      "sourceReview": "source-page-reviewed",
+      "editorialStatus": "pending-source-level-approval",
+      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    },
+    {
+      "id": "YMC-P030",
+      "headline": "A reading event brings thousands together across countries",
+      "category": "Humor & Entertainment",
+      "topicTags": [
+        "reading",
+        "community",
+        "positive-stories"
+      ],
+      "exclusionTags": [],
+      "editorialContribution": "fresh-discovery",
+      "longevity": "evergreen",
+      "discoverSummary": "A record-setting online reading campaign brought together more than 153,000 participants across 92 countries. The collaborative achievement offers a feel-good discovery about how shared curiosity and a few minutes with a book can unite people.",
+      "source": {
+        "url": "https://www.guinnessworldrecords.com/news/2026/11/fashionistas-drummers-and-candy-crushers-octobers-people-power-roundup",
+        "publisher": "Guinness World Records",
+        "publishedAt": "2026-11-10"
+      },
+      "deepDive": null,
+      "sourceReview": "source-page-reviewed",
+      "editorialStatus": "pending-source-level-approval",
+      "publicationStatus": "hold-for-source-approval-and-readiness",
+      "rightsStatus": "link-only-no-source-text-stored",
+      "lastReviewed": "2026-11-19",
+      "publishCount": 0
+    }
+  ]
+}
