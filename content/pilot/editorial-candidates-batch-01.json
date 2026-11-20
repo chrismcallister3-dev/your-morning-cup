@@ -1,8 +1,8 @@
 {
   "schemaVersion": "pilot-1",
-  "status": "editorial-candidates-not-approved",
+  "status": "editorially-approved-not-published",
   "createdAt": "2026-11-19",
-  "purpose": "Separate, non-published editorial candidate collection. Do not load into edition assembly until reviewed.",
+  "purpose": "Batch 1 editorial baseline approved by owner on 2026-11-19. Not yet eligible for publication pending required source/metadata checks.",
   "editorialBalanceNote": "Editorial contribution (evergreen/current/fresh-discovery) is independent of source longevity; quality and relevance override quota.",
   "records": [
     {
@@ -25,10 +25,12 @@
       },
       "deepDive": null,
       "sourceReview": "source-located-and-reviewed-in-research",
-      "editorialStatus": "candidate-needs-human-review",
+      "editorialStatus": "editorially-approved",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "publicationStatus": "hold-for-publication-readiness"
     },
     {
       "id": "YMC-P002",
@@ -50,10 +52,12 @@
       },
       "deepDive": null,
       "sourceReview": "source-located-and-reviewed-in-research",
-      "editorialStatus": "candidate-needs-human-review",
+      "editorialStatus": "editorially-approved",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "publicationStatus": "hold-for-publication-readiness"
     },
     {
       "id": "YMC-P003",
@@ -75,10 +79,12 @@
       },
       "deepDive": null,
       "sourceReview": "source-located-and-reviewed-in-research",
-      "editorialStatus": "candidate-needs-human-review",
+      "editorialStatus": "editorially-approved",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "publicationStatus": "hold-for-publication-readiness"
     },
     {
       "id": "YMC-P004",
@@ -100,10 +106,12 @@
       },
       "deepDive": null,
       "sourceReview": "source-located-and-reviewed-in-research",
-      "editorialStatus": "candidate-needs-human-review",
+      "editorialStatus": "editorially-approved",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "publicationStatus": "hold-for-publication-readiness"
     },
     {
       "id": "YMC-P005",
@@ -125,10 +133,12 @@
       },
       "deepDive": null,
       "sourceReview": "source-located-and-reviewed-in-research",
-      "editorialStatus": "candidate-needs-human-review",
+      "editorialStatus": "editorially-approved",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "publicationStatus": "hold-for-publication-readiness"
     },
     {
       "id": "YMC-P006",
@@ -150,10 +160,12 @@
       },
       "deepDive": null,
       "sourceReview": "source-located-and-reviewed-in-research",
-      "editorialStatus": "candidate-needs-human-review",
+      "editorialStatus": "editorially-approved",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "publicationStatus": "hold-for-publication-readiness"
     },
     {
       "id": "YMC-P007",
@@ -175,10 +187,12 @@
       },
       "deepDive": null,
       "sourceReview": "source-located-and-reviewed-in-research",
-      "editorialStatus": "candidate-needs-human-review",
+      "editorialStatus": "editorially-approved",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "publicationStatus": "hold-for-publication-readiness"
     },
     {
       "id": "YMC-P008",
@@ -200,10 +214,12 @@
       },
       "deepDive": null,
       "sourceReview": "source-located-and-reviewed-in-research",
-      "editorialStatus": "candidate-needs-human-review",
+      "editorialStatus": "editorially-approved",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "publicationStatus": "hold-for-publication-readiness"
     },
     {
       "id": "YMC-P009",
@@ -225,10 +241,12 @@
       },
       "deepDive": null,
       "sourceReview": "source-located-and-reviewed-in-research",
-      "editorialStatus": "candidate-needs-human-review",
+      "editorialStatus": "editorially-approved",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "publicationStatus": "hold-for-publication-readiness"
     },
     {
       "id": "YMC-P010",
@@ -250,10 +268,18 @@
       },
       "deepDive": null,
       "sourceReview": "catalog-page-found-in-search;direct-page-access-blocked-needs-manual-verification",
-      "editorialStatus": "candidate-source-check-needed",
+      "editorialStatus": "editorially-approved",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "publicationStatus": "hold-for-publication-readiness",
+      "publicationNotes": "Source catalog page requires direct manual verification before publishing"
     }
-  ]
+  ],
+  "editorialApproval": {
+    "approvedAt": "2026-11-19",
+    "decision": "All ten topics and draft summaries approved as pilot editorial quality baseline",
+    "publicationAuthorization": false
+  }
 }
