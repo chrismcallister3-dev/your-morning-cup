@@ -263,21 +263,25 @@
       },
       "deepDive": null,
       "sourceReview": "source-listed-but-direct-article-not-accessible-needs-manual-review",
-      "editorialStatus": "candidate-needs-human-review",
-      "publicationStatus": "hold-for-approval-and-source-validation",
+      "editorialStatus": "editorially-approved",
+      "publicationStatus": "hold-for-publication-readiness",
       "rightsStatus": "link-only-no-source-text-stored",
       "lastReviewed": "2026-11-19",
-      "publishCount": 0
+      "publishCount": 0,
+      "editorialApprovedAt": "2026-11-19",
+      "editorialRationale": "Positive, uplifting story with appeal to cat lovers",
+      "publicationNotes": "Direct source page verification remains outstanding; editorial source approval does not clear this check."
     }
   ],
   "editorialApproval": {
     "approvedIds": [
       "YMC-P016",
       "YMC-P017",
-      "YMC-P018"
+      "YMC-P018",
+      "YMC-P020"
     ],
     "approvedAt": "2026-11-19",
-    "scope": "sports articles only",
+    "scope": "Three sports articles and bodega cat story; other individual entries remain pending",
     "publicationAuthorization": false
   }
 }
